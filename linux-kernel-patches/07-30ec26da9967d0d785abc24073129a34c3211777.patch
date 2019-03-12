@@ -1,0 +1,71 @@
+From 30ec26da9967d0d785abc24073129a34c3211777 Mon Sep 17 00:00:00 2001
+From: Ashok Raj <ashok.raj@intel.com>
+Date: Wed, 28 Feb 2018 11:28:43 +0100
+Subject: x86/microcode: Do not upload microcode if CPUs are offline
+
+Avoid loading microcode if any of the CPUs are offline, and issue a
+warning. Having different microcode revisions on the system at any time
+is outright dangerous.
+
+[ Borislav: Massage changelog. ]
+
+Signed-off-by: Ashok Raj <ashok.raj@intel.com>
+Signed-off-by: Borislav Petkov <bp@suse.de>
+Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
+Tested-by: Tom Lendacky <thomas.lendacky@amd.com>
+Tested-by: Ashok Raj <ashok.raj@intel.com>
+Reviewed-by: Tom Lendacky <thomas.lendacky@amd.com>
+Cc: Arjan Van De Ven <arjan.van.de.ven@intel.com>
+Link: http://lkml.kernel.org/r/1519352533-15992-4-git-send-email-ashok.raj@intel.com
+Link: https://lkml.kernel.org/r/20180228102846.13447-5-bp@alien8.de
+---
+ arch/x86/kernel/cpu/microcode/core.c | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+diff --git a/arch/x86/kernel/cpu/microcode/core.c b/arch/x86/kernel/cpu/microcode/core.c
+index 6337065..fa32cb3 100644
+--- a/arch/x86/kernel/cpu/microcode/core.c
++++ b/arch/x86/kernel/cpu/microcode/core.c
+@@ -486,6 +486,16 @@ static void __exit microcode_dev_exit(void)
+ /* fake device for request_firmware */
+ static struct platform_device	*microcode_pdev;
+ 
++static int check_online_cpus(void)
++{
++	if (num_online_cpus() == num_present_cpus())
++		return 0;
++
++	pr_err("Not all CPUs online, aborting microcode update.\n");
++
++	return -EINVAL;
++}
++
+ static enum ucode_state reload_for_cpu(int cpu)
+ {
+ 	struct ucode_cpu_info *uci = ucode_cpu_info + cpu;
+@@ -519,7 +529,13 @@ static ssize_t reload_store(struct device *dev,
+ 		return size;
+ 
+ 	get_online_cpus();
++
++	ret = check_online_cpus();
++	if (ret)
++		goto put;
++
+ 	mutex_lock(&microcode_mutex);
++
+ 	for_each_online_cpu(cpu) {
+ 		tmp_ret = reload_for_cpu(cpu);
+ 		if (tmp_ret > UCODE_NFOUND) {
+@@ -538,6 +554,8 @@ static ssize_t reload_store(struct device *dev,
+ 		microcode_check();
+ 
+ 	mutex_unlock(&microcode_mutex);
++
++put:
+ 	put_online_cpus();
+ 
+ 	if (!ret)
+-- 
+cgit v1.1
+

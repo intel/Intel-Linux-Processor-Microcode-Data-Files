@@ -1,0 +1,111 @@
+Intel Processor Microcode Package for Linux
+
+CPU microcode is a mechanism to correct certain errata in existing systems.
+The normal preferred method to apply microcode updates is using the system
+BIOS, but for a subset of Intel's processors this can be done at runtime
+using the operating system. This package contains those processors that
+support OS loading of microcode updates.
+
+The target user for this package are OS vendors such as Linux distributions
+for inclusion in their OS releases. Intel recommends getting the microcode
+using the OS vendor update mechanism. Expert users can of course update their
+microcode directly outside the OS vendor mechanism. This method is complex and
+thus could be error prone.
+
+Microcode is best loaded from the BIOS. Certain microcode must only be applied
+from the BIOS. Such processor microcode updates are never packaged in this
+package since they are not appropriate for OS distribution. An OEM may receive
+microcode packages that might be a superset of what is contained in this
+package.
+
+OS vendors may choose to also update microcode that kernel can consume for early
+loading. For e.g. Linux can update processor microcode very early in the kernel
+boot sequence. In situations when the BIOS update isn't available, early loading
+is the next best alternative to updating processor microcode. Microcode states
+are reset on a power reset, hence its required to be updated everytime during
+boot process.
+
+Loading microcode using the initrd method is recommended so that the microcode
+is loaded at the earliest time for best coverage. Systems that cannot tolerate
+downtime may use the late reload method to update a running system without a
+reboot.
+
+== About Processor Signature, Family, Model, Stepping and Platform ID ==
+Processor signature is a number identifying the model and version of a
+Intel processor. It can be obtained using the CPUID instruction, and can
+also be obtained via the command lscpu or from the content of /proc/cpuinfo.
+It's usually presented as 3 fields: Family, Model and Stepping
+(In the table of updates below, they are shorten as F, MO and S).
+
+The width of Family/Model/Stepping is 12/8/4bit, but when arranged in the
+32bit processor signature raw data is like 0FFM0FMS, hexadecimal.
+e.g. if a processor signature is 0x000906eb, it means
+Family=0x006, Model=0x9e and Stepping=0xb
+
+A processor product can be implemented for multiple types of platforms,
+So in MSR(17H), Intel processors have a 3bit Platform ID field,
+that can specify a platform type from at most 8 types.
+A microcode file for a specified processor model can support multiple
+platforms, so the Platform ID of a microcode (shorten as PI in the table)
+is a 8bit mask, each set bit indicates a platform type that it supports.
+One can find the platform ID on Linux using rdmsr from msr-tools.
+
+== Microcode update instructions ==
+-- intel-ucode/ --
+intel-ucode directory contains binary microcode files named in
+family-model-stepping pattern. The file is supported in most modern Linux
+distributions. It's generally located in the /lib/firmware directory,
+and can be updated through the microcode reload interface.
+
+To update early loading initrd, consult your distribution on how to package
+microcode files for early loading. Some distros use update-initramfs or dracut.
+As recommended above, please use the OS vendors are recommended method to ensure
+microcode file is updated for early loading before attempting the late-load
+procedure below.
+
+To update the intel-ucode package to the system, one need:
+1. Ensure the existence of /sys/devices/system/cpu/microcode/reload
+2. Copy intel-ucode directory to /lib/firmware, overwrite the files in
+/lib/firmware/intel-ucode/
+3. Write the reload interface to 1 to reload the microcode files, e.g.
+  echo 1 > /sys/devices/system/cpu/microcode/reload
+
+If you are using the OS vendor method to update microcode, the above steps may
+have been done automatically during the update process.
+
+-- intel-ucode-with-caveats/ --
+This directory holds microcode that might need special handling.
+BDX-ML microcode is provided in directory, because it need special commits in
+the Linux kernel, otherwise, updating it might result in unexpected system
+behavior. 
+OS vendors must ensure that the late loader patches (provided in
+linux-kernel-patches\) are included in the distribution before packaging the
+BDX-ML microcode for late-loading.
+
+== 20190312 Release ==
+-- Updates upon 20180807 release --
+Processor             Identifier     Version       Products
+Model        Stepping F-MO-S/PI      Old->New
+---- new platforms ----------------------------------------
+AML-Y22      H0       6-8e-9/10           0000009e Core Gen8 Mobile
+WHL-U        W0       6-8e-b/d0           000000a4 Core Gen8 Mobile
+WHL-U        V0       6-8e-d/94           000000b2 Core Gen8 Mobile
+CFL-S        P0       6-9e-c/22           000000a2 Core Gen9 Desktop
+CFL-H        R0       6-9e-d/22           000000b0 Core Gen9 Mobile
+---- updated platforms ------------------------------------
+HSX-E/EP     Cx/M1    6-3f-2/6f 0000003d->00000041 Core Gen4 X series; Xeon E5 v3
+HSX-EX       E0       6-3f-4/80 00000012->00000013 Xeon E7 v3
+SKX-SP       H0/M0/U0 6-55-4/b7 0200004d->0000005a Xeon Scalable
+SKX-D        M1       6-55-4/b7 0200004d->0000005a Xeon D-21xx
+BDX-DE       V1       6-56-2/10 00000017->00000019 Xeon D-1520/40
+BDX-DE       V2/3     6-56-3/10 07000013->07000016 Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
+BDX-DE       Y0       6-56-4/10 0f000012->0f000014 Xeon D-1557/59/67/71/77/81/87
+BDX-NS       A0       6-56-5/10 0e00000a->0e00000c Xeon D-1513N/23/33/43/53
+APL          D0       6-5c-9/03 00000032->00000036 Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
+APL          E0       6-5c-a/03 0000000c->00000010 Atom x5/7-E39xx
+GLK          B0       6-7a-1/01 00000028->0000002c Pentium Silver N/J5xxx, Celeron N/J4xxx
+KBL-U/Y      H0       6-8e-9/c0 0000008e->0000009a Core Gen7 Mobile
+CFL-U43e     D0       6-8e-a/c0 00000096->0000009e Core Gen8 Mobile
+KBL-H/S/E3   B0       6-9e-9/2a 0000008e->0000009a Core Gen7; Xeon E3 v6
+CFL-H/S/E3   U0       6-9e-a/22 00000096->000000aa Core Gen8 Desktop, Mobile, Xeon E
+CFL-S        B0       6-9e-b/02 0000008e->000000aa Core Gen8

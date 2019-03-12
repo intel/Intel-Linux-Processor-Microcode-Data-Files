@@ -1,0 +1,59 @@
+From 09e182d17e8891dd73baba961a0f5a82e9274c97 Mon Sep 17 00:00:00 2001
+From: Borislav Petkov <bp@suse.de>
+Date: Sat, 21 Apr 2018 10:19:30 +0200
+Subject: x86/microcode: Do not exit early from __reload_late()
+
+Vitezslav reported a case where the
+
+  "Timeout during microcode update!"
+
+panic would hit. After a deeper look, it turned out that his .config had
+CONFIG_HOTPLUG_CPU disabled which practically made save_mc_for_early() a
+no-op.
+
+When that happened, the discovered microcode patch wasn't saved into the
+cache and the late loading path wouldn't find any.
+
+This, then, lead to early exit from __reload_late() and thus CPUs waiting
+until the timeout is reached, leading to the panic.
+
+In hindsight, that function should have been written so it does not return
+before the post-synchronization. Oh well, I know better now...
+
+Fixes: bb8c13d61a62 ("x86/microcode: Fix CPU synchronization routine")
+Reported-by: Vitezslav Samel <vitezslav@samel.cz>
+Signed-off-by: Borislav Petkov <bp@suse.de>
+Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
+Tested-by: Vitezslav Samel <vitezslav@samel.cz>
+Tested-by: Ashok Raj <ashok.raj@intel.com>
+Cc: stable@vger.kernel.org
+Link: http://lkml.kernel.org/r/20180418081140.GA2439@pc11.op.pod.cz
+Link: https://lkml.kernel.org/r/20180421081930.15741-2-bp@alien8.de
+---
+ arch/x86/kernel/cpu/microcode/core.c | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+diff --git a/arch/x86/kernel/cpu/microcode/core.c b/arch/x86/kernel/cpu/microcode/core.c
+index 10c4fc2..77e2013 100644
+--- a/arch/x86/kernel/cpu/microcode/core.c
++++ b/arch/x86/kernel/cpu/microcode/core.c
+@@ -564,14 +564,12 @@ static int __reload_late(void *info)
+ 	apply_microcode_local(&err);
+ 	spin_unlock(&update_lock);
+ 
++	/* siblings return UCODE_OK because their engine got updated already */
+ 	if (err > UCODE_NFOUND) {
+ 		pr_warn("Error reloading microcode on CPU %d\n", cpu);
+-		return -1;
+-	/* siblings return UCODE_OK because their engine got updated already */
++		ret = -1;
+ 	} else if (err == UCODE_UPDATED || err == UCODE_OK) {
+ 		ret = 1;
+-	} else {
+-		return ret;
+ 	}
+ 
+ 	/*
+-- 
+cgit v1.1
+

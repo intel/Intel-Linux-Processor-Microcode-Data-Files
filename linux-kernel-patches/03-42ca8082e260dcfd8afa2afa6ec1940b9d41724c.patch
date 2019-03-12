@@ -1,0 +1,64 @@
+From 42ca8082e260dcfd8afa2afa6ec1940b9d41724c Mon Sep 17 00:00:00 2001
+From: Borislav Petkov <bp@suse.de>
+Date: Fri, 16 Feb 2018 12:26:40 +0100
+Subject: x86/CPU: Check CPU feature bits after microcode upgrade
+
+With some microcode upgrades, new CPUID features can become visible on
+the CPU. Check what the kernel has mirrored now and issue a warning
+hinting at possible things the user/admin can do to make use of the
+newly visible features.
+
+Originally-by: Ashok Raj <ashok.raj@intel.com>
+Tested-by: Ashok Raj <ashok.raj@intel.com>
+Signed-off-by: Borislav Petkov <bp@suse.de>
+Reviewed-by: Ashok Raj <ashok.raj@intel.com>
+Cc: Andy Lutomirski <luto@kernel.org>
+Cc: Arjan van de Ven <arjan@linux.intel.com>
+Cc: Borislav Petkov <bp@alien8.de>
+Cc: Dan Williams <dan.j.williams@intel.com>
+Cc: Dave Hansen <dave.hansen@linux.intel.com>
+Cc: David Woodhouse <dwmw2@infradead.org>
+Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+Cc: Josh Poimboeuf <jpoimboe@redhat.com>
+Cc: Linus Torvalds <torvalds@linux-foundation.org>
+Cc: Peter Zijlstra <peterz@infradead.org>
+Cc: Thomas Gleixner <tglx@linutronix.de>
+Link: http://lkml.kernel.org/r/20180216112640.11554-4-bp@alien8.de
+Signed-off-by: Ingo Molnar <mingo@kernel.org>
+---
+ arch/x86/kernel/cpu/common.c | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+diff --git a/arch/x86/kernel/cpu/common.c b/arch/x86/kernel/cpu/common.c
+index 84f1cd8..348cf48 100644
+--- a/arch/x86/kernel/cpu/common.c
++++ b/arch/x86/kernel/cpu/common.c
+@@ -1757,5 +1757,25 @@ core_initcall(init_cpu_syscore);
+  */
+ void microcode_check(void)
+ {
++	struct cpuinfo_x86 info;
++
+ 	perf_check_microcode();
++
++	/* Reload CPUID max function as it might've changed. */
++	info.cpuid_level = cpuid_eax(0);
++
++	/*
++	 * Copy all capability leafs to pick up the synthetic ones so that
++	 * memcmp() below doesn't fail on that. The ones coming from CPUID will
++	 * get overwritten in get_cpu_cap().
++	 */
++	memcpy(&info.x86_capability, &boot_cpu_data.x86_capability, sizeof(info.x86_capability));
++
++	get_cpu_cap(&info);
++
++	if (!memcmp(&info.x86_capability, &boot_cpu_data.x86_capability, sizeof(info.x86_capability)))
++		return;
++
++	pr_warn("x86/CPU: CPU features have changed after loading microcode, but might not take effect.\n");
++	pr_warn("x86/CPU: Please consider either early loading through initrd/built-in or a potential BIOS update.\n");
+ }
+-- 
+cgit v1.1
+

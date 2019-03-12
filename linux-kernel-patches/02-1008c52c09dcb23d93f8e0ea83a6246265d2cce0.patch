@@ -1,0 +1,90 @@
+From 1008c52c09dcb23d93f8e0ea83a6246265d2cce0 Mon Sep 17 00:00:00 2001
+From: Borislav Petkov <bp@suse.de>
+Date: Fri, 16 Feb 2018 12:26:39 +0100
+Subject: x86/CPU: Add a microcode loader callback
+
+Add a callback function which the microcode loader calls when microcode
+has been updated to a newer revision. Do the callback only when no error
+was encountered during loading.
+
+Tested-by: Ashok Raj <ashok.raj@intel.com>
+Signed-off-by: Borislav Petkov <bp@suse.de>
+Reviewed-by: Ashok Raj <ashok.raj@intel.com>
+Cc: Andy Lutomirski <luto@kernel.org>
+Cc: Arjan van de Ven <arjan@linux.intel.com>
+Cc: Borislav Petkov <bp@alien8.de>
+Cc: Dan Williams <dan.j.williams@intel.com>
+Cc: Dave Hansen <dave.hansen@linux.intel.com>
+Cc: David Woodhouse <dwmw2@infradead.org>
+Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+Cc: Josh Poimboeuf <jpoimboe@redhat.com>
+Cc: Linus Torvalds <torvalds@linux-foundation.org>
+Cc: Peter Zijlstra <peterz@infradead.org>
+Cc: Thomas Gleixner <tglx@linutronix.de>
+Link: http://lkml.kernel.org/r/20180216112640.11554-3-bp@alien8.de
+Signed-off-by: Ingo Molnar <mingo@kernel.org>
+---
+ arch/x86/include/asm/processor.h     |  1 +
+ arch/x86/kernel/cpu/common.c         | 10 ++++++++++
+ arch/x86/kernel/cpu/microcode/core.c |  8 ++++++--
+ 3 files changed, 17 insertions(+), 2 deletions(-)
+
+diff --git a/arch/x86/include/asm/processor.h b/arch/x86/include/asm/processor.h
+index 1bd9ed8..b0ccd48 100644
+--- a/arch/x86/include/asm/processor.h
++++ b/arch/x86/include/asm/processor.h
+@@ -977,4 +977,5 @@ bool xen_set_default_idle(void);
+ 
+ void stop_this_cpu(void *dummy);
+ void df_debug(struct pt_regs *regs, long error_code);
++void microcode_check(void);
+ #endif /* _ASM_X86_PROCESSOR_H */
+diff --git a/arch/x86/kernel/cpu/common.c b/arch/x86/kernel/cpu/common.c
+index 824aee0..84f1cd8 100644
+--- a/arch/x86/kernel/cpu/common.c
++++ b/arch/x86/kernel/cpu/common.c
+@@ -1749,3 +1749,13 @@ static int __init init_cpu_syscore(void)
+ 	return 0;
+ }
+ core_initcall(init_cpu_syscore);
++
++/*
++ * The microcode loader calls this upon late microcode load to recheck features,
++ * only when microcode has been updated. Caller holds microcode_mutex and CPU
++ * hotplug lock.
++ */
++void microcode_check(void)
++{
++	perf_check_microcode();
++}
+diff --git a/arch/x86/kernel/cpu/microcode/core.c b/arch/x86/kernel/cpu/microcode/core.c
+index 6fdaf7c..aa1b9a4 100644
+--- a/arch/x86/kernel/cpu/microcode/core.c
++++ b/arch/x86/kernel/cpu/microcode/core.c
+@@ -509,6 +509,7 @@ static ssize_t reload_store(struct device *dev,
+ 			    const char *buf, size_t size)
+ {
+ 	enum ucode_state tmp_ret = UCODE_OK;
++	bool do_callback = false;
+ 	unsigned long val;
+ 	ssize_t ret = 0;
+ 	int cpu;
+@@ -531,10 +532,13 @@ static ssize_t reload_store(struct device *dev,
+ 			if (!ret)
+ 				ret = -EINVAL;
+ 		}
++
++		if (tmp_ret == UCODE_UPDATED)
++			do_callback = true;
+ 	}
+ 
+-	if (!ret && tmp_ret == UCODE_UPDATED)
+-		perf_check_microcode();
++	if (!ret && do_callback)
++		microcode_check();
+ 
+ 	mutex_unlock(&microcode_mutex);
+ 	put_online_cpus();
+-- 
+cgit v1.1
+

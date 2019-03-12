@@ -1,0 +1,62 @@
+From 854857f5944c59a881ff607b37ed9ed41d031a3b Mon Sep 17 00:00:00 2001
+From: Borislav Petkov <bp@suse.de>
+Date: Wed, 28 Feb 2018 11:28:40 +0100
+Subject: x86/microcode: Get rid of struct apply_microcode_ctx
+
+It is a useless remnant from earlier times. Use the ucode_state enum
+directly.
+
+No functional change.
+
+Signed-off-by: Borislav Petkov <bp@suse.de>
+Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
+Tested-by: Tom Lendacky <thomas.lendacky@amd.com>
+Tested-by: Ashok Raj <ashok.raj@intel.com>
+Cc: Arjan Van De Ven <arjan.van.de.ven@intel.com>
+Link: https://lkml.kernel.org/r/20180228102846.13447-2-bp@alien8.de
+---
+ arch/x86/kernel/cpu/microcode/core.c | 19 ++++++++-----------
+ 1 file changed, 8 insertions(+), 11 deletions(-)
+
+diff --git a/arch/x86/kernel/cpu/microcode/core.c b/arch/x86/kernel/cpu/microcode/core.c
+index aa1b9a4..6337065 100644
+--- a/arch/x86/kernel/cpu/microcode/core.c
++++ b/arch/x86/kernel/cpu/microcode/core.c
+@@ -373,26 +373,23 @@ static int collect_cpu_info(int cpu)
+ 	return ret;
+ }
+ 
+-struct apply_microcode_ctx {
+-	enum ucode_state err;
+-};
+-
+ static void apply_microcode_local(void *arg)
+ {
+-	struct apply_microcode_ctx *ctx = arg;
++	enum ucode_state *err = arg;
+ 
+-	ctx->err = microcode_ops->apply_microcode(smp_processor_id());
++	*err = microcode_ops->apply_microcode(smp_processor_id());
+ }
+ 
+ static int apply_microcode_on_target(int cpu)
+ {
+-	struct apply_microcode_ctx ctx = { .err = 0 };
++	enum ucode_state err;
+ 	int ret;
+ 
+-	ret = smp_call_function_single(cpu, apply_microcode_local, &ctx, 1);
+-	if (!ret)
+-		ret = ctx.err;
+-
++	ret = smp_call_function_single(cpu, apply_microcode_local, &err, 1);
++	if (!ret) {
++		if (err == UCODE_ERROR)
++			ret = 1;
++	}
+ 	return ret;
+ }
+ 
+-- 
+cgit v1.1
+
