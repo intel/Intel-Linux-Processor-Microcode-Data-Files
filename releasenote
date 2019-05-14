@@ -82,30 +82,48 @@ OS vendors must ensure that the late loader patches (provided in
 linux-kernel-patches\) are included in the distribution before packaging the
 BDX-ML microcode for late-loading.
 
-== 20190312 Release ==
--- Updates upon 20180807 release --
+== 20190514 Release ==
+-- Updates upon 20190312 release --
 Processor             Identifier     Version       Products
 Model        Stepping F-MO-S/PI      Old->New
 ---- new platforms ----------------------------------------
-AML-Y22      H0       6-8e-9/10           0000009e Core Gen8 Mobile
-WHL-U        W0       6-8e-b/d0           000000a4 Core Gen8 Mobile
-WHL-U        V0       6-8e-d/94           000000b2 Core Gen8 Mobile
-CFL-S        P0       6-9e-c/22           000000a2 Core Gen9 Desktop
-CFL-H        R0       6-9e-d/22           000000b0 Core Gen9 Mobile
+VLV          C0       6-37-8/02           00000838 Atom Z series
+VLV          C0       6-37-8/0C           00000838 Celeron N2xxx, Pentium N35xx
+VLV          D0       6-37-9/0F           0000090c Atom E38xx
+CHV          C0       6-4c-3/01           00000368 Atom X series
+CHV          D0       6-4c-4/01           00000411 Atom X series
+CLX-SP       B1       6-55-7/bf           05000021 Xeon Scalable Gen2
 ---- updated platforms ------------------------------------
-HSX-E/EP     Cx/M1    6-3f-2/6f 0000003d->00000041 Core Gen4 X series; Xeon E5 v3
-HSX-EX       E0       6-3f-4/80 00000012->00000013 Xeon E7 v3
-SKX-SP       H0/M0/U0 6-55-4/b7 0200004d->0000005a Xeon Scalable
-SKX-D        M1       6-55-4/b7 0200004d->0000005a Xeon D-21xx
-BDX-DE       V1       6-56-2/10 00000017->00000019 Xeon D-1520/40
-BDX-DE       V2/3     6-56-3/10 07000013->07000016 Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
-BDX-DE       Y0       6-56-4/10 0f000012->0f000014 Xeon D-1557/59/67/71/77/81/87
-BDX-NS       A0       6-56-5/10 0e00000a->0e00000c Xeon D-1513N/23/33/43/53
-APL          D0       6-5c-9/03 00000032->00000036 Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
-APL          E0       6-5c-a/03 0000000c->00000010 Atom x5/7-E39xx
-GLK          B0       6-7a-1/01 00000028->0000002c Pentium Silver N/J5xxx, Celeron N/J4xxx
-KBL-U/Y      H0       6-8e-9/c0 0000008e->0000009a Core Gen7 Mobile
-CFL-U43e     D0       6-8e-a/c0 00000096->0000009e Core Gen8 Mobile
-KBL-H/S/E3   B0       6-9e-9/2a 0000008e->0000009a Core Gen7; Xeon E3 v6
-CFL-H/S/E3   U0       6-9e-a/22 00000096->000000aa Core Gen8 Desktop, Mobile, Xeon E
-CFL-S        B0       6-9e-b/02 0000008e->000000aa Core Gen8
+SNB          D2/G1/Q0 6-2a-7/12 0000002e->0000002f Core Gen2
+IVB          E1/L1    6-3a-9/12 00000020->00000021 Core Gen3
+HSW          C0       6-3c-3/32 00000025->00000027 Core Gen4
+BDW-U/Y      E0/F0    6-3d-4/c0 0000002b->0000002d Core Gen5
+IVB-E/EP     C1/M1/S1 6-3e-4/ed 0000042e->0000042f Core Gen3 X Series; Xeon E5 v2
+IVB-EX       D1       6-3e-7/ed 00000714->00000715 Xeon E7 v2
+HSX-E/EP     Cx/M1    6-3f-2/6f 00000041->00000043 Core Gen4 X series; Xeon E5 v3
+HSX-EX       E0       6-3f-4/80 00000013->00000014 Xeon E7 v3
+HSW-U        C0/D0    6-45-1/72 00000024->00000025 Core Gen4
+HSW-H        C0       6-46-1/32 0000001a->0000001b Core Gen4
+BDW-H/E3     E0/G0    6-47-1/22 0000001e->00000020 Core Gen5
+SKL-U/Y      D0/K1    6-4e-3/c0 000000c6->000000cc Core Gen6
+BDX-ML       B0/M0/R0 6-4f-1/ef 0b00002e->00000036 Xeon E5/E7 v4; Core i7-69xx/68xx
+SKX-SP       H0/M0/U0 6-55-4/b7 0200005a->0000005e Xeon Scalable
+SKX-D        M1       6-55-4/b7 0200005a->0000005e Xeon D-21xx
+BDX-DE       V1       6-56-2/10 00000019->0000001a Xeon D-1520/40
+BDX-DE       V2/3     6-56-3/10 07000016->07000017 Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
+BDX-DE       Y0       6-56-4/10 0f000014->0f000015 Xeon D-1557/59/67/71/77/81/87
+BDX-NS       A0       6-56-5/10 0e00000c->0e00000d Xeon D-1513N/23/33/43/53
+APL          D0       6-5c-9/03 00000036->00000038 Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
+SKL-H/S      R0/N0    6-5e-3/36 000000c6->000000cc Core Gen6; Xeon E3 v5
+DNV          B0       6-5f-1/01 00000024->0000002e Atom C Series
+GLK          B0       6-7a-1/01 0000002c->0000002e Pentium Silver N/J5xxx, Celeron N/J4xxx
+AML-Y22      H0       6-8e-9/10 0000009e->000000b4 Core Gen8 Mobile
+KBL-U/Y      H0       6-8e-9/c0 0000009a->000000b4 Core Gen7 Mobile
+CFL-U43e     D0       6-8e-a/c0 0000009e->000000b4 Core Gen8 Mobile
+WHL-U        W0       6-8e-b/d0 000000a4->000000b8 Core Gen8 Mobile
+WHL-U        V0       6-8e-d/94 000000b2->000000b8 Core Gen8 Mobile
+KBL-G/H/S/E3 B0       6-9e-9/2a 0000009a->000000b4 Core Gen7; Xeon E3 v6
+CFL-H/S/E3   U0       6-9e-a/22 000000aa->000000b4 Core Gen8 Desktop, Mobile, Xeon E
+CFL-S        B0       6-9e-b/02 000000aa->000000b4 Core Gen8
+CFL-H/S      P0       6-9e-c/22 000000a2->000000ae Core Gen9
+CFL-H        R0       6-9e-d/22 000000b0->000000b8 Core Gen9 Mobile
