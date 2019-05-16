@@ -98,7 +98,7 @@ SNB          D2/G1/Q0 6-2a-7/12 0000002e->0000002f Core Gen2
 IVB          E1/L1    6-3a-9/12 00000020->00000021 Core Gen3
 HSW          C0       6-3c-3/32 00000025->00000027 Core Gen4
 BDW-U/Y      E0/F0    6-3d-4/c0 0000002b->0000002d Core Gen5
-IVB-E/EP     C1/M1/S1 6-3e-4/ed 0000042e->0000042f Core Gen3 X Series; Xeon E5 v2
+IVB-E/EP     C1/M1/S1 6-3e-4/ed 0000042d->0000042e Core Gen3 X Series; Xeon E5 v2
 IVB-EX       D1       6-3e-7/ed 00000714->00000715 Xeon E7 v2
 HSX-E/EP     Cx/M1    6-3f-2/6f 00000041->00000043 Core Gen4 X series; Xeon E5 v3
 HSX-EX       E0       6-3f-4/80 00000013->00000014 Xeon E7 v3
@@ -106,7 +106,7 @@ HSW-U        C0/D0    6-45-1/72 00000024->00000025 Core Gen4
 HSW-H        C0       6-46-1/32 0000001a->0000001b Core Gen4
 BDW-H/E3     E0/G0    6-47-1/22 0000001e->00000020 Core Gen5
 SKL-U/Y      D0/K1    6-4e-3/c0 000000c6->000000cc Core Gen6
-BDX-ML       B0/M0/R0 6-4f-1/ef 0b00002e->00000036 Xeon E5/E7 v4; Core i7-69xx/68xx
+BDX-ML       B0/M0/R0 6-4f-1/ef 0b00002e->0b000036 Xeon E5/E7 v4; Core i7-69xx/68xx
 SKX-SP       H0/M0/U0 6-55-4/b7 0200005a->0000005e Xeon Scalable
 SKX-D        M1       6-55-4/b7 0200005a->0000005e Xeon D-21xx
 BDX-DE       V1       6-56-2/10 00000019->0000001a Xeon D-1520/40
@@ -114,6 +114,7 @@ BDX-DE       V2/3     6-56-3/10 07000016->07000017 Xeon D-1518/19/21/27/28/31/33
 BDX-DE       Y0       6-56-4/10 0f000014->0f000015 Xeon D-1557/59/67/71/77/81/87
 BDX-NS       A0       6-56-5/10 0e00000c->0e00000d Xeon D-1513N/23/33/43/53
 APL          D0       6-5c-9/03 00000036->00000038 Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
+APL          E0       6-5c-a/03 0000000c->00000016 Atom x5-E39xx
 SKL-H/S      R0/N0    6-5e-3/36 000000c6->000000cc Core Gen6; Xeon E3 v5
 DNV          B0       6-5f-1/01 00000024->0000002e Atom C Series
 GLK          B0       6-7a-1/01 0000002c->0000002e Pentium Silver N/J5xxx, Celeron N/J4xxx
