@@ -82,12 +82,21 @@ OS vendors must ensure that the late loader patches (provided in
 linux-kernel-patches\) are included in the distribution before packaging the
 BDX-ML microcode for late-loading.
 
-== 20190618 Release ==
--- Updates upon 20190514 release --
+== 20190918 Release ==
+-- Updates upon 20190618 release --
 Processor             Identifier     Version       Products
 Model        Stepping F-MO-S/PI      Old->New
 ---- new platforms ----------------------------------------
 
 ---- updated platforms ------------------------------------
-SNB-E/EN/EP  C1/M0    6-2d-6/6d 0000061d->0000061f Xeon E3/E5, Core X
-SNB-E/EN/EP  C2/M1    6-2d-7/6d 00000714->00000718 Xeon E3/E5, Core X
+BDW-U/Y      E0/F0    6-3d-4/c0 0000002d->0000002e Core Gen5
+HSX-EX       E0       6-3f-4/80 00000014->00000016 Xeon E7 v3
+BDW-H/E3     E0/G0    6-47-1/22 00000020->00000021 Core Gen5
+BDX-ML       B0/M0/R0 6-4f-1/ef 0b000036->0b000038 Xeon E5/E7 v4; Core i7-69xx/68xx
+BDX-DE       V1       6-56-2/10 0000001a->0000001c Xeon D-1520/40
+BDX-DE       V2/3     6-56-3/10 07000017->07000019 Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
+BDX-DE       Y0       6-56-4/10 0f000015->0f000017 Xeon D-1557/59/67/71/77/81/87
+BDX-NS       A0       6-56-5/10 0e00000d->0e00000f Xeon D-1513N/23/33/43/53
+SKX-SP       H0/M0/U0 6-55-4/b7 0200005e->00000064 Xeon Scalable
+SKX-D        M1       6-55-4/b7 0200005e->00000064 Xeon D-21xx
+CLX-SP       B1       6-55-7/bf 05000021->0500002b Xeon Scalable Gen2
