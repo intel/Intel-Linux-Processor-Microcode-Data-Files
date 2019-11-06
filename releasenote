@@ -82,21 +82,35 @@ OS vendors must ensure that the late loader patches (provided in
 linux-kernel-patches\) are included in the distribution before packaging the
 BDX-ML microcode for late-loading.
 
-== 20190918 Release ==
--- Updates upon 20190618 release --
+== 20191112 Release ==
+-- Updates upon 20190918 release --
 Processor             Identifier     Version       Products
 Model        Stepping F-MO-S/PI      Old->New
 ---- new platforms ----------------------------------------
+AVN          B0/C0    6-4d-8/01           0000012D Atom C2xxx
+CML-U62      A0       6-a6-0/80           000000c6 Core Gen10 Mobile
+CNL-U        D0       6-66-3/80           0000002a Core Gen8 Mobile
+SKX-SP       B1       6-55-3/97           01000151 Xeon Scalable
+GKL          B0       6-7a-1/01           00000032 Pentium J5005/N5000, Celeron J4005/J4105/N4000/N4100
+GKL-R        R0       6-7a-8/01           00000016 Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+ICL U/Y      D1       6-7e-5/80           00000046 Core Gen10 Mobile
 
 ---- updated platforms ------------------------------------
-BDW-U/Y      E0/F0    6-3d-4/c0 0000002d->0000002e Core Gen5
-HSX-EX       E0       6-3f-4/80 00000014->00000016 Xeon E7 v3
-BDW-H/E3     E0/G0    6-47-1/22 00000020->00000021 Core Gen5
-BDX-ML       B0/M0/R0 6-4f-1/ef 0b000036->0b000038 Xeon E5/E7 v4; Core i7-69xx/68xx
-BDX-DE       V1       6-56-2/10 0000001a->0000001c Xeon D-1520/40
-BDX-DE       V2/3     6-56-3/10 07000017->07000019 Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
-BDX-DE       Y0       6-56-4/10 0f000015->0f000017 Xeon D-1557/59/67/71/77/81/87
-BDX-NS       A0       6-56-5/10 0e00000d->0e00000f Xeon D-1513N/23/33/43/53
-SKX-SP       H0/M0/U0 6-55-4/b7 0200005e->00000064 Xeon Scalable
-SKX-D        M1       6-55-4/b7 0200005e->00000064 Xeon D-21xx
-CLX-SP       B1       6-55-7/bf 05000021->0500002b Xeon Scalable Gen2
+SKL U/Y      D0       6-4e-3/c0 000000cc->000000d4 Core Gen6 Mobile
+SKX-SP       H0/M0/U0 6-55-4/b7 02000064->00000065 Xeon Scalable
+SKX-D        M1       6-55-4/b7 02000064->00000065 Xeon D-21xx
+CLX-SP       B0       6-55-6/bf 0400002b->0400002c Xeon Scalable Gen2
+CLX-SP       B1       6-55-7/bf 0500002b->0500002c Xeon Scalable Gen2
+SKL H/S/E3   R0/N0    6-5e-3/36 000000cc->000000d4 Core Gen6
+AML-Y22      H0       6-8e-9/10 000000b4->000000c6 Core Gen8 Mobile
+KBL-U/Y      H0       6-8e-9/c0 000000b4->000000c6 Core Gen7 Mobile
+CFL-U43e     D0       6-8e-a/c0 000000b4->000000c6 Core Gen8 Mobile
+WHL-U        W0       6-8e-b/d0 000000b8->000000c6 Core Gen8 Mobile
+AML-Y        V0       6-8e-c/94 000000b8->000000c6 Core Gen10 Mobile
+CML-U42      V0       6-8e-c/94 000000b8->000000c6 Core Gen10 Mobile
+WHL-U        V0       6-8e-c/94 000000b8->000000c6 Core Gen8 Mobile
+KBL-G/X      H0       6-9e-9/2a 000000b4->000000c6 Core Gen7/Gen8
+KBL-H/S/E3   B0       6-9e-9/2a 000000b4->000000c6 Core Gen7; Xeon E3 v6
+CFL-H/S/E3   U0       6-9e-a/22 000000b4->000000c6 Core Gen8 Desktop, Mobile, Xeon E
+CFL-S        B0       6-9e-b/02 000000b4->000000c6 Core Gen8
+CFL-H        R0       6-9e-d/22 000000b8->000000c6 Core Gen9 Mobile
