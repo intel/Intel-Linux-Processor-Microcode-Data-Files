@@ -87,21 +87,21 @@ BDX-ML microcode for late-loading.
 Processor             Identifier     Version       Products
 Model        Stepping F-MO-S/PI      Old->New
 ---- new platforms ----------------------------------------
-AVN          B0/C0    6-4d-8/01           0000012D Atom C2xxx
-CML-U62      A0       6-a6-0/80           000000c6 Core Gen10 Mobile
+AVN          B0/C0    6-4d-8/01           0000012d Atom C2xxx
 CNL-U        D0       6-66-3/80           0000002a Core Gen8 Mobile
 SKX-SP       B1       6-55-3/97           01000151 Xeon Scalable
-GKL          B0       6-7a-1/01           00000032 Pentium J5005/N5000, Celeron J4005/J4105/N4000/N4100
-GKL-R        R0       6-7a-8/01           00000016 Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
-ICL U/Y      D1       6-7e-5/80           00000046 Core Gen10 Mobile
+CLX-SP       B0       6-55-6/bf           0400002c Xeon Scalable Gen2
+GLK-R        R0       6-7a-8/01           00000016 Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+ICL-U/Y      D1       6-7e-5/80           00000046 Core Gen10 Mobile
+CML-U62      A0       6-a6-0/80           000000c6 Core Gen10 Mobile
 
 ---- updated platforms ------------------------------------
-SKL U/Y      D0       6-4e-3/c0 000000cc->000000d4 Core Gen6 Mobile
-SKX-SP       H0/M0/U0 6-55-4/b7 02000064->00000065 Xeon Scalable
-SKX-D        M1       6-55-4/b7 02000064->00000065 Xeon D-21xx
-CLX-SP       B0       6-55-6/bf 0400002b->0400002c Xeon Scalable Gen2
+SKL-U/Y      D0       6-4e-3/c0 000000cc->000000d4 Core Gen6 Mobile
+SKX-SP       H0/M0/U0 6-55-4/b7 02000064->02000065 Xeon Scalable
+SKX-D        M1       6-55-4/b7 02000064->02000065 Xeon D-21xx
 CLX-SP       B1       6-55-7/bf 0500002b->0500002c Xeon Scalable Gen2
-SKL H/S/E3   R0/N0    6-5e-3/36 000000cc->000000d4 Core Gen6
+SKL-H/S/E3   R0/N0    6-5e-3/36 000000cc->000000d4 Core Gen6
+GLK          B0       6-7a-1/01 0000002e->00000032 Pentium J5005/N5000, Celeron J4005/J4105/N4000/N4100
 AML-Y22      H0       6-8e-9/10 000000b4->000000c6 Core Gen8 Mobile
 KBL-U/Y      H0       6-8e-9/c0 000000b4->000000c6 Core Gen7 Mobile
 CFL-U43e     D0       6-8e-a/c0 000000b4->000000c6 Core Gen8 Mobile
@@ -114,3 +114,6 @@ KBL-H/S/E3   B0       6-9e-9/2a 000000b4->000000c6 Core Gen7; Xeon E3 v6
 CFL-H/S/E3   U0       6-9e-a/22 000000b4->000000c6 Core Gen8 Desktop, Mobile, Xeon E
 CFL-S        B0       6-9e-b/02 000000b4->000000c6 Core Gen8
 CFL-H        R0       6-9e-d/22 000000b8->000000c6 Core Gen9 Mobile
+
+---- removed platforms ------------------------------------
+CFL-H/S      P0       6-9e-c/22 000000a2           Core Gen9
