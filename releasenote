@@ -82,38 +82,17 @@ OS vendors must ensure that the late loader patches (provided in
 linux-kernel-patches\) are included in the distribution before packaging the
 BDX-ML microcode for late-loading.
 
-== 20191112 Release ==
--- Updates upon 20190918 release --
+== 20191113 Release ==
+-- Updates upon 20191112 release --
 Processor             Identifier     Version       Products
 Model        Stepping F-MO-S/PI      Old->New
 ---- new platforms ----------------------------------------
-AVN          B0/C0    6-4d-8/01           0000012d Atom C2xxx
-CNL-U        D0       6-66-3/80           0000002a Core Gen8 Mobile
-SKX-SP       B1       6-55-3/97           01000151 Xeon Scalable
-CLX-SP       B0       6-55-6/bf           0400002c Xeon Scalable Gen2
-GLK-R        R0       6-7a-8/01           00000016 Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
-ICL-U/Y      D1       6-7e-5/80           00000046 Core Gen10 Mobile
-CML-U62      A0       6-a6-0/80           000000c6 Core Gen10 Mobile
 
 ---- updated platforms ------------------------------------
-SKL-U/Y      D0       6-4e-3/c0 000000cc->000000d4 Core Gen6 Mobile
-SKX-SP       H0/M0/U0 6-55-4/b7 02000064->02000065 Xeon Scalable
-SKX-D        M1       6-55-4/b7 02000064->02000065 Xeon D-21xx
-CLX-SP       B1       6-55-7/bf 0500002b->0500002c Xeon Scalable Gen2
-SKL-H/S/E3   R0/N0    6-5e-3/36 000000cc->000000d4 Core Gen6
-GLK          B0       6-7a-1/01 0000002e->00000032 Pentium J5005/N5000, Celeron J4005/J4105/N4000/N4100
-AML-Y22      H0       6-8e-9/10 000000b4->000000c6 Core Gen8 Mobile
-KBL-U/Y      H0       6-8e-9/c0 000000b4->000000c6 Core Gen7 Mobile
-CFL-U43e     D0       6-8e-a/c0 000000b4->000000c6 Core Gen8 Mobile
-WHL-U        W0       6-8e-b/d0 000000b8->000000c6 Core Gen8 Mobile
-AML-Y        V0       6-8e-c/94 000000b8->000000c6 Core Gen10 Mobile
-CML-U42      V0       6-8e-c/94 000000b8->000000c6 Core Gen10 Mobile
-WHL-U        V0       6-8e-c/94 000000b8->000000c6 Core Gen8 Mobile
-KBL-G/X      H0       6-9e-9/2a 000000b4->000000c6 Core Gen7/Gen8
-KBL-H/S/E3   B0       6-9e-9/2a 000000b4->000000c6 Core Gen7; Xeon E3 v6
-CFL-H/S/E3   U0       6-9e-a/22 000000b4->000000c6 Core Gen8 Desktop, Mobile, Xeon E
-CFL-S        B0       6-9e-b/02 000000b4->000000c6 Core Gen8
-CFL-H        R0       6-9e-d/22 000000b8->000000c6 Core Gen9 Mobile
+CFL-S        P0       6-9e-c/22 000000a2->000000c6 Core Gen9 Desktop
 
 ---- removed platforms ------------------------------------
-CFL-H/S      P0       6-9e-c/22 000000a2           Core Gen9
+
+NOTE:  This microcode was previously incorrectly listed as both CFL-S (Desktop)
+       and CFL-H (Mobile) and was removed from the 20191112 release.  This
+       processor is now correctly listed as CFL-S (Desktop) only.
