@@ -82,17 +82,31 @@ OS vendors must ensure that the late loader patches (provided in
 linux-kernel-patches\) are included in the distribution before packaging the
 BDX-ML microcode for late-loading.
 
-== 20191113 Release ==
--- Updates upon 20191112 release --
+== 20191115 Release ==
+-- Updates upon 20191113 release --
 Processor             Identifier     Version       Products
 Model        Stepping F-MO-S/PI      Old->New
 ---- new platforms ----------------------------------------
 
 ---- updated platforms ------------------------------------
-CFL-S        P0       6-9e-c/22 000000a2->000000c6 Core Gen9 Desktop
+SKL-U/Y      D0       6-4e-3/c0 000000d4->000000d6 Core Gen6 Mobile
+SKL-U23e     K1       6-4e-3/c0 000000d4->000000d6 Core Gen6 Mobile
+SKL-H/S/E3   N0/R0/S0 6-5e-3/36 000000d4->000000d6 Core Gen6
+AML-Y22      H0       6-8e-9/10 000000c6->000000ca Core Gen8 Mobile
+KBL-U/Y      H0       6-8e-9/c0 000000c6->000000ca Core Gen7 Mobile
+KBL-U23e     J1       6-8e-9/c0 000000c6->000000ca Core Gen7 Mobile
+CFL-U43e     D0       6-8e-a/c0 000000c6->000000ca Core Gen8 Mobile
+KBL-R U      Y0       6-8e-a/c0 000000c6->000000ca Core Gen8 Mobile
+WHL-U        W0       6-8e-b/d0 000000c6->000000ca Core Gen8 Mobile
+AML-Y42      V0       6-8e-c/94 000000c6->000000ca Core Gen10 Mobile
+WHL-U        V0       6-8e-c/94 000000c6->000000ca Core Gen8 Mobile
+CML-U42      V0       6-8e-c/94 000000c6->000000ca Core Gen10 Mobile
+KBL-G/H/S/X/E3 B0     6-9e-9/2a 000000c6->000000ca Core Gen7 Desktop, Mobile, Xeon E3 v6
+CFL-H/S/E3   U0       6-9e-a/22 000000c6->000000ca Core Gen8 Desktop, Mobile, Xeon E
+CFL-S        B0       6-9e-b/02 000000c6->000000ca Core Gen8
+CFL-S        P0       6-9e-c/22 000000c6->000000ca Core Gen9 Desktop
+CFL-H/S/E3   R0       6-9e-d/22 000000c6->000000ca Core Gen9 Desktop, Mobile, Xeon E
+CML-U62      A0       6-a6-0/80 000000c6->000000ca Core Gen10 Mobile
 
 ---- removed platforms ------------------------------------
 
-NOTE:  This microcode was previously incorrectly listed as both CFL-S (Desktop)
-       and CFL-H (Mobile) and was removed from the 20191112 release.  This
-       processor is now correctly listed as CFL-S (Desktop) only.
