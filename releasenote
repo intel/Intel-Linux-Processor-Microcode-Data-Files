@@ -82,14 +82,15 @@ OS vendors must ensure that the late loader patches (provided in
 linux-kernel-patches\) are included in the distribution before packaging the
 BDX-ML microcode for late-loading.
 
-== 20200508 Release ==
--- Updates upon 20191115 release --
+== 20200520 Release ==
+-- Updates upon 20200508 release --
 Processor             Identifier     Version       Products
 Model        Stepping F-MO-S/PI      Old->New
 ---- new platforms ----------------------------------------
 
 ---- updated platforms ------------------------------------
-ICL-U/Y      D1       6-7e-5/80 00000046->00000078 Core Gen10 Mobile
+SNB-E/EN/EP  C1/M0    6-2d-6/6d 0000061f->00000621 Xeon E3/E5, Core X
+SNB-E/EN/EP  C2/M1    6-2d-7/6d 00000718->0000071a Xeon E3/E5, Core X
 
 ---- removed platforms ------------------------------------
 
