@@ -82,37 +82,15 @@ OS vendors must ensure that the late loader patches (provided in
 linux-kernel-patches\) are included in the distribution before packaging the
 BDX-ML microcode for late-loading.
 
-== 20200609 Release ==
--- Updates upon 20200520 release --
+== 20200616 Release ==
+-- Updates upon 20200609 release --
 Processor             Identifier     Version       Products
 Model        Stepping F-MO-S/PI      Old->New
 ---- new platforms ----------------------------------------
 
 ---- updated platforms ------------------------------------
-HSW          C0       6-3c-3/32 00000027->00000028 Core Gen4
-BDW-U/Y      E0/F0    6-3d-4/c0 0000002e->0000002f Core Gen5
-HSW-U        C0/D0    6-45-1/72 00000025->00000026 Core Gen4
-HSW-H        C0       6-46-1/32 0000001b->0000001c Core Gen4
-BDW-H/E3     E0/G0    6-47-1/22 00000021->00000022 Core Gen5
-SKL-U/Y      D0       6-4e-3/c0 000000d6->000000dc Core Gen6 Mobile
-SKL-U23e     K1       6-4e-3/c0 000000d6->000000dc Core Gen6 Mobile
-SKX-SP       B1       6-55-3/97 01000151->01000157 Xeon Scalable
-SKX-SP       H0/M0/U0 6-55-4/b7 02000065->02006906 Xeon Scalable
-SKX-D        M1       6-55-4/b7 02000065->02006906 Xeon D-21xx
-CLX-SP       B0       6-55-6/bf 0400002c->04002f01 Xeon Scalable Gen2
-CLX-SP       B1       6-55-7/bf 0500002c->05002f01 Xeon Scalable Gen2
-SKL-H/S      R0/N0    6-5e-3/36 000000d6->000000dc Core Gen6; Xeon E3 v5
-AML-Y22      H0       6-8e-9/10 000000ca->000000d6 Core Gen8 Mobile
-KBL-U/Y      H0       6-8e-9/c0 000000ca->000000d6 Core Gen7 Mobile
-CFL-U43e     D0       6-8e-a/c0 000000ca->000000d6 Core Gen8 Mobile
-WHL-U        W0       6-8e-b/d0 000000ca->000000d6 Core Gen8 Mobile
-AML-Y42      V0       6-8e-c/94 000000ca->000000d6 Core Gen10 Mobile
-CML-Y42      V0       6-8e-c/94 000000ca->000000d6 Core Gen10 Mobile
-WHL-U        V0       6-8e-c/94 000000ca->000000d6 Core Gen8 Mobile
-KBL-G/H/S/E3 B0       6-9e-9/2a 000000ca->000000d6 Core Gen7; Xeon E3 v6
-CFL-H/S/E3   U0       6-9e-a/22 000000ca->000000d6 Core Gen8 Desktop, Mobile, Xeon E
-CFL-S        B0       6-9e-b/02 000000ca->000000d6 Core Gen8
-CFL-H/S      P0       6-9e-c/22 000000ca->000000d6 Core Gen9
-CFL-H        R0       6-9e-d/22 000000ca->000000d6 Core Gen9 Mobile
+SKL-U/Y      D0       6-4e-3/c0 000000dc->000000d6 Core Gen6 Mobile
+SKL-U23e     K1       6-4e-3/c0 000000dc->000000d6 Core Gen6 Mobile
+SKL-H/S      R0/N0    6-5e-3/36 000000dc->000000d6 Core Gen6; Xeon E3 v5
 
 ---- removed platforms ------------------------------------
