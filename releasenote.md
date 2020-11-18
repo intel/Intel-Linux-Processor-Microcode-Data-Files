@@ -1,5 +1,25 @@
 # Release Notes
 
+## [microcode-20201118](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20201118)
+
+### Purpose
+
+- Removed TGL/06-8c-01/80 due to functional issues with some OEM platforms.
+
+### New Platforms
+
+None
+
+### Updated Platforms
+
+None
+
+### Removed Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| TGL            | B1       | 06-8c-01/80 | 00000068 |          | Core Gen11 Mobile
+
 ## [microcode-20201112](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20201112)
 
 ### Purpose
