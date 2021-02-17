@@ -1,5 +1,28 @@
 # Release Notes
 
+## [microcode-20210216](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20210216)
+
+### Purpose
+
+- Security updates for [INTEL-SA-00381](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00381.html)
+
+### New Platforms
+
+None
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 02006a08 | 02006a0a | Xeon Scalable
+| SKX-D          | M1       | 06-55-04/b7 | 02006a08 | 02006a0a | Xeon D-21xx
+| CLX-SP         | B0       | 06-55-06/bf | 04003003 | 04003006 | Xeon Scalable Gen2
+| CLX-SP         | B1       | 06-55-07/bf | 05003003 | 05003006 | Xeon Scalable Gen2
+
+### Removed Platforms
+
+None
+
 ## [microcode-20201118](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20201118)
 
 ### Purpose
