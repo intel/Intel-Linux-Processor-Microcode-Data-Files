@@ -40,7 +40,7 @@ A processor may be implemented for multiple platform types. Intel processors hav
 
 ## Microcode update instructions
 
-The [intel-ucode](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/master/intel-ucode) directory contains binary MCU files named in the `family-model-stepping` format. This file format is supported by most modern Linux distributions. It's generally located in the /lib/firmware directory and can be updated through the microcode reload interface following the late-load update instructions below.
+The [intel-ucode](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/main/intel-ucode) directory contains binary MCU files named in the `family-model-stepping` format. This file format is supported by most modern Linux distributions. It's generally located in the /lib/firmware directory and can be updated through the microcode reload interface following the late-load update instructions below.
 
 ### Early-load update
 To update early loading initrd, consult your Linux distribution on how to package MCU files for early loading. Some distributions use `update-initramfs` or `dracut`. Use the OS vendors recommended method to help ensure that the MCU file is updated for early loading before attempting the late-load procedure below.
@@ -48,7 +48,7 @@ To update early loading initrd, consult your Linux distribution on how to packag
 ### Late-load update
 To update the intel-ucode package to the system:
 1. Ensure the existence of `/sys/devices/system/cpu/microcode/reload`
-2. Download the latest microcode firmware</br> `$ git clone https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files.git` or</br> `$ wget https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/archive/master.zip`
+2. Download the latest microcode firmware</br> `$ git clone https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files.git` or</br> `$ wget https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/archive/main.zip`
 3. Copy `intel-ucode` directory to `/lib/firmware`, overwriting the files in /lib/firmware/intel-ucode/
 4. Write the reload interface to 1 to reload the microcode files, e.g.</br>
   `$ echo 1 > /sys/devices/system/cpu/microcode/reload`</br>
@@ -62,9 +62,9 @@ To update the intel-ucode package to the system:
 
 If you are using the OS vendor method to apply an MCU, the above steps may have been done automatically during the update process.
 
-The [intel-ucode-with-caveats](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/master/intel-ucode-with-caveats) directory contains MCUs that need special handling. The BDX-ML MCU is provided in this directory because it requires special commits in the Linux kernel otherwise updating it might result in unexpected system behavior. OS vendors must ensure that the late loader patches (provided in [linux-kernel-patches](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/master/linux-kernel-patches)) are included in the distribution before packaging the BDX-ML MCU for late-loading.
+The [intel-ucode-with-caveats](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/main/intel-ucode-with-caveats) directory contains MCUs that need special handling. The BDX-ML MCU is provided in this directory because it requires special commits in the Linux kernel otherwise updating it might result in unexpected system behavior. OS vendors must ensure that the late loader patches (provided in [linux-kernel-patches](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/main/linux-kernel-patches)) are included in the distribution before packaging the BDX-ML MCU for late-loading.
 
-The [linux-kernel-patches](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/master/linux-kernel-patches) directory consists of kernel patches that address various issues related to applying MCUs.
+The [linux-kernel-patches](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/main/linux-kernel-patches) directory consists of kernel patches that address various issues related to applying MCUs.
 
 ## Notes
 
@@ -79,15 +79,15 @@ The [linux-kernel-patches](https://github.com/intel/Intel-Linux-Processor-Microc
 
 ## License
 
-See the [license](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/master/license) file for details.
+See the [license](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/license) file for details.
 
 ## Security Policy
 
-See the [security.md](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/master/security.md) file for details.
+See the [security.md](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/security.md) file for details.
 
 ## Release Note
 
-See the [releasenote.md](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/master/releasenote.md) file for details.
+See the [releasenote.md](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/blob/main/releasenote.md) file for details.
 
 ## Disclaimers 
 

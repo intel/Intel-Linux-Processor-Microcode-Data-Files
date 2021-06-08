@@ -1,5 +1,90 @@
 # Release Notes
 
+## [microcode-20210608](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20210608)
+
+### Purpose
+
+- Security updates for [INTEL-SA-00442](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00442.html)
+- Security updates for [INTEL-SA-00464](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00464.html)
+- Security updates for [INTEL-SA-00465](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00465.html)
+- Update for functional issues. Refer to [Third Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780)for details.
+- Update for functional issues. Refer to [Second Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338848) for details.
+- Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/613537) for details.
+- Update for functional issues. Refer to [Intel® Xeon® Processor D-1500, D-1500 NS and D-1600 NS Spec Update](https://www.intel.com/content/www/us/en/products/docs/processors/xeon/xeon-d-1500-specification-update.html) for details.
+- Update for functional issues. Refer to [Intel® Xeon® E7-8800 and E7-4800 v3 Processor Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/xeon-e7-v3-spec-update.html) for details.
+- Update for functional issues. Refer to [Intel® Xeon® Processor E5 v3 Product Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/xeon-e5-v3-spec-update.html?wapkw=processor+spec+update+e5) for details.
+- Update for functional issues. Refer to [10th Gen Intel® Core™ Processor Families Specification Update](https://www.intel.com/content/www/us/en/products/docs/processors/core/10th-gen-core-families-specification-update.html) for details.
+- Update for functional issues. Refer to [8th and 9th Gen Intel® Core™ Processor Family Spec Update](https://www.intel.com/content/www/us/en/products/docs/processors/core/8th-gen-core-spec-update.html) for details.
+- Update for functional issues. Refer to [7th Gen and 8th Gen (U Quad-Core) Intel® Processor Families Specification Update](https://www.intel.com/content/www/us/en/processors/core/7th-gen-core-family-spec-update.html) for details.
+- Update for functional issues. Refer to [6th Gen Intel® Processor Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/332689) for details.
+- Update for functional issues. Refer to [Intel® Xeon® E3-1200 v6 Processor Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/xeon-e3-1200v6-spec-update.html) for details.
+- Update for functional issues. Refer to [Intel® Xeon® E-2100 and E-2200 Processor Family Specification Update](https://www.intel.com/content/www/us/en/products/docs/processors/xeon/xeon-e-2100-specification-update.html) for details.
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| CLX-SP         | A0       | 06-55-05/b7 |          | 03000010 | Xeon Scalable Gen2
+| ICX-SP         | C0       | 06-6a-05/87 |          | 0c0002f0 | Xeon Scalable Gen3
+| ICX-SP         | D0       | 06-6a-06/87 |          | 0d0002a0 | Xeon Scalable Gen3
+| SNR            | B0       | 06-86-04/01 |          | 0b00000f | Atom P59xxB
+| SNR            | B1       | 06-86-05/01 |          | 0b00000f | Atom P59xxB
+| TGL            | B1       | 06-8c-01/80 |          | 00000088 | Core Gen11 Mobile
+| TGL-R          | C0       | 06-8c-02/c2 |          | 00000016 | Core Gen11 Mobile
+| TGL-H          | R0       | 06-8d-01/c2 |          | 0000002c | Core Gen11 Mobile
+| EHL            | B1       | 06-96-01/01 |          | 00000011 | Pentium J6426/N6415, Celeron J6412/J6413/N6210/N6211, Atom x6000E
+| JSL            | A0/A1    | 06-9c-00/01 |          | 0000001d | Pentium N6000/N6005, Celeron N4500/N4505/N5100/N5105
+| RKL-S          | B0       | 06-a7-01/02 |          | 00000040 | Core Gen11
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| HSX-E/EP       | Cx/M1    | 06-3f-02/6f | 00000044 | 00000046 | Core Gen4 X series; Xeon E5 v3
+| HSX-EX         | E0       | 06-3f-04/80 | 00000016 | 00000019 | Xeon E7 v3
+| SKL-U/Y        | D0       | 06-4e-03/c0 | 000000e2 | 000000ea | Core Gen6 Mobile
+| SKL-U23e       | K1       | 06-4e-03/c0 | 000000e2 | 000000ea | Core Gen6 Mobile
+| BDX-ML         | B0/M0/R0 | 06-4f-01/ef | 0b000038 | 0b00003e | Xeon E5/E7 v4; Core i7-69xx/68xx
+| SKX-SP         | B1       | 06-55-03/97 | 01000159 | 0100015b | Xeon Scalable
+| SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 02006a0a | 02006b06 | Xeon Scalable
+| SKX-D          | M1       | 06-55-04/b7 | 02006a0a | 02006b06 | Xeon D-21xx
+| CLX-SP         | B0       | 06-55-06/bf | 04003006 | 04003102 | Xeon Scalable Gen2
+| CLX-SP         | B1       | 06-55-07/bf | 05003006 | 05003102 | Xeon Scalable Gen2
+| CPX-SP         | A1       | 06-55-0b/bf | 0700001e | 07002302 | Xeon Scalable Gen3
+| BDX-DE         | V2/V3    | 06-56-03/10 | 07000019 | 0700001b | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
+| BDX-DE         | Y0       | 06-56-04/10 | 0f000017 | 0f000019 | Xeon D-1557/59/67/71/77/81/87
+| BDX-NS         | A1       | 06-56-05/10 | 0e00000f | 0e000012 | Xeon D-1513N/23/33/43/53
+| APL            | D0       | 06-5c-09/03 | 00000040 | 00000044 | Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
+| APL            | E0       | 06-5c-0a/03 | 0000001e | 00000020 | Atom x5-E39xx
+| SKL-H/S        | R0/N0    | 06-5e-03/36 | 000000e2 | 000000ea | Core Gen6; Xeon E3 v5
+| DNV            | B0       | 06-5f-01/01 | 0000002e | 00000034 | Atom C Series
+| GLK            | B0       | 06-7a-01/01 | 00000034 | 00000036 | Pentium Silver N/J5xxx, Celeron N/J4xxx
+| GKL-R          | R0       | 06-7a-08/01 | 00000018 | 0000001a | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| ICL-U/Y        | D1       | 06-7e-05/80 | 000000a0 | 000000a6 | Core Gen10 Mobile
+| LKF            | B2/B3    | 06-8a-01/10 | 00000028 | 0000002a | Core w/Hybrid Technology
+| AML-Y22        | H0       | 06-8e-09/10 | 000000de | 000000ea | Core Gen8 Mobile
+| KBL-U/Y        | H0       | 06-8e-09/c0 | 000000de | 000000ea | Core Gen7 Mobile
+| CFL-U43e       | D0       | 06-8e-0a/c0 | 000000e0 | 000000ea | Core Gen8 Mobile
+| WHL-U          | W0       | 06-8e-0b/d0 | 000000de | 000000ea | Core Gen8 Mobile
+| AML-Y42        | V0       | 06-8e-0c/94 | 000000de | 000000ea | Core Gen10 Mobile
+| CML-Y42        | V0       | 06-8e-0c/94 | 000000de | 000000ea | Core Gen10 Mobile
+| WHL-U          | V0       | 06-8e-0c/94 | 000000de | 000000ea | Core Gen8 Mobile
+| KBL-G/H/S/E3   | B0       | 06-9e-09/2a | 000000de | 000000ea | Core Gen7; Xeon E3 v6
+| CFL-H/S/E3     | U0       | 06-9e-0a/22 | 000000de | 000000ea | Core Gen8 Desktop, Mobile, Xeon E
+| CFL-S          | B0       | 06-9e-0b/02 | 000000de | 000000ea | Core Gen8
+| CFL-H/S        | P0       | 06-9e-0c/22 | 000000de | 000000ea | Core Gen9
+| CFL-H          | R0       | 06-9e-0d/22 | 000000de | 000000ea | Core Gen9 Mobile
+| CML-H          | R1       | 06-a5-02/20 | 000000e0 | 000000ea | Core Gen10 Mobile
+| CML-S62        | G1       | 06-a5-03/22 | 000000e0 | 000000ea | Core Gen10
+| CML-S102       | Q0       | 06-a5-05/22 | 000000e0 | 000000ec | Core Gen10
+| CML-U62 V1     | A0       | 06-a6-00/80 | 000000e0 | 000000e8 | Core Gen10 Mobile
+| CML-U62 V2     | K1       | 06-a6-01/80 | 000000e0 | 000000ea | Core Gen10 Mobile
+
+### Removed Platforms
+
+None
+
+
 ## [microcode-20210216](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20210216)
 
 ### Purpose
@@ -90,8 +175,8 @@ None
 | TGL            | B1       | 06-8c-01/80 |          | 00000068 | Core Gen11 Mobile
 | CML-H          | R1       | 06-a5-02/20 |          | 000000e0 | Core Gen10 Mobile
 | CML-S62        | G1       | 06-a5-03/22 |          | 000000e0 | Core Gen10
-| CML-S102       | Q0       | 06-a5-05/22 |          | 000000e0 | Core Gen10 
-| CML-U62 V2     | K0       | 06-a6-01/80 |          | 000000e0 | Core Gen10 Mobile
+| CML-S102       | Q0       | 06-a5-05/22 |          | 000000e0 | Core Gen10
+| CML-U62 V2     | K1       | 06-a6-01/80 |          | 000000e0 | Core Gen10 Mobile
 
 ### Updated Platforms
 
@@ -122,7 +207,7 @@ None
 | CFL-S          | B0       | 06-9e-0b/02 | 000000d6 | 000000de | Core Gen8
 | CFL-H/S        | P0       | 06-9e-0c/22 | 000000d6 | 000000de | Core Gen9
 | CFL-H          | R0       | 06-9e-0d/22 | 000000d6 | 000000de | Core Gen9 Mobile
-| CML-U62        | A0       | 06-a6-00/80 | 000000ca | 000000e0 | Core Gen10 Mobile
+| CML-U62 V1     | A0       | 06-a6-00/80 | 000000ca | 000000e0 | Core Gen10 Mobile
 
 ### Removed Platforms
 
@@ -271,7 +356,7 @@ None
 | CFL-S          | B0       | 06-9e-0b/02 | 000000c6 | 000000ca | Core Gen8
 | CFL-S          | P0       | 06-9e-0c/22 | 000000c6 | 000000ca | Core Gen9 Desktop
 | CFL-H/S/E3     | R0       | 06-9e-0d/22 | 000000c6 | 000000ca | Core Gen9 Desktop, Mobile, Xeon E
-| CML-U62        | A0       | 06-a6-00/80 | 000000c6 | 000000ca | Core Gen10 Mobile
+| CML-U62 V1     | A0       | 06-a6-00/80 | 000000c6 | 000000ca | Core Gen10 Mobile
 
 ### Removed Platforms
 
@@ -311,7 +396,7 @@ None
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | AVN            | B0/C0    | 06-4d-08/01 |          | 0000012D | Atom C2xxx
-| CML-U62        | A0       | 06-a6-00/80 |          | 000000c6 | Core Gen10 Mobile
+| CML-U62 V1     | A0       | 06-a6-00/80 |          | 000000c6 | Core Gen10 Mobile
 | CNL-U          | D0       | 06-66-03/80 |          | 0000002a | Core Gen8 Mobile
 | SKX-SP         | B1       | 06-55-03/97 |          | 01000151 | Xeon Scalable
 | GKL            | B0       | 06-7a-01/01 |          | 00000032 | Pentium J5005/N5000, Celeron J4005/J4105/N4000/N4100
@@ -366,9 +451,9 @@ None
 | BDW-H/E3       | E0/G0    | 06-47-01/22 | 00000020 | 00000021 | Core Gen5
 | BDX-ML         | B0/M0/R0 | 06-4f-01/ef | 0b000036 | 0b000038 | Xeon E5/E7 v4; Core i7-69xx/68xx
 | BDX-DE         | V1       | 06-56-02/10 | 0000001a | 0000001c | Xeon D-1520/40
-| BDX-DE         | V2/3     | 06-56-03/10 | 07000017 | 07000019 | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
+| BDX-DE         | V2/V3    | 06-56-03/10 | 07000017 | 07000019 | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
 | BDX-DE         | Y0       | 06-56-04/10 | 0f000015 | 0f000017 | Xeon D-1557/59/67/71/77/81/87
-| BDX-NS         | A0       | 06-56-05/10 | 0e00000d | 0e00000f | Xeon D-1513N/23/33/43/53
+| BDX-NS         | A1       | 06-56-05/10 | 0e00000d | 0e00000f | Xeon D-1513N/23/33/43/53
 | SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 0200005e | 00000064 | Xeon Scalable
 | SKX-D          | M1       | 06-55-04/b7 | 0200005e | 00000064 | Xeon D-21xx
 | CLX-SP         | B1       | 06-55-07/bf | 05000021 | 0500002b | Xeon Scalable Gen2
@@ -435,9 +520,9 @@ None
 | SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 0200005a | 0000005e | Xeon Scalable
 | SKX-D          | M1       | 06-55-04/b7 | 0200005a | 0000005e | Xeon D-21xx
 | BDX-DE         | V1       | 06-56-02/10 | 00000019 | 0000001a | Xeon D-1520/40
-| BDX-DE         | V2/3     | 06-56-03/10 | 07000016 | 07000017 | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
+| BDX-DE         | V2/V3    | 06-56-03/10 | 07000016 | 07000017 | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
 | BDX-DE         | Y0       | 06-56-04/10 | 0f000014 | 0f000015 | Xeon D-1557/59/67/71/77/81/87
-| BDX-NS         | A0       | 06-56-05/10 | 0e00000c | 0e00000d | Xeon D-1513N/23/33/43/53
+| BDX-NS         | A1       | 06-56-05/10 | 0e00000c | 0e00000d | Xeon D-1513N/23/33/43/53
 | APL            | D0       | 06-5c-09/03 | 00000036 | 00000038 | Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
 | APL            | E0       | 06-5c-0a/03 | 0000000c | 00000016 | Atom x5-E39xx
 | SKL-H/S        | R0/N0    | 06-5e-03/36 | 000000c6 | 000000cc | Core Gen6; Xeon E3 v5
@@ -495,9 +580,9 @@ None
 | SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 0200005a | 0000005e | Xeon Scalable
 | SKX-D          | M1       | 06-55-04/b7 | 0200005a | 0000005e | Xeon D-21xx
 | BDX-DE         | V1       | 06-56-02/10 | 00000019 | 0000001a | Xeon D-1520/40
-| BDX-DE         | V2/3     | 06-56-03/10 | 07000016 | 07000017 | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
+| BDX-DE         | V2/V3    | 06-56-03/10 | 07000016 | 07000017 | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
 | BDX-DE         | Y0       | 06-56-04/10 | 0f000014 | 0f000015 | Xeon D-1557/59/67/71/77/81/87
-| BDX-NS         | A0       | 06-56-05/10 | 0e00000c | 0e00000d | Xeon D-1513N/23/33/43/53
+| BDX-NS         | A1       | 06-56-05/10 | 0e00000c | 0e00000d | Xeon D-1513N/23/33/43/53
 | APL            | D0       | 06-5c-09/03 | 00000036 | 00000038 | Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
 | SKL-H/S        | R0/N0    | 06-5e-03/36 | 000000c6 | 000000cc | Core Gen6; Xeon E3 v5
 | DNV            | B0       | 06-5f-01/01 | 00000024 | 0000002e | Atom C Series
@@ -542,9 +627,9 @@ None
 | SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 0200004d | 0000005a | Xeon Scalable
 | SKX-D          | M1       | 06-55-04/b7 | 0200004d | 0000005a | Xeon D-21xx
 | BDX-DE         | V1       | 06-56-02/10 | 00000017 | 00000019 | Xeon D-1520/40
-| BDX-DE         | V2/3     | 06-56-03/10 | 07000013 | 07000016 | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
+| BDX-DE         | V2/V3    | 06-56-03/10 | 07000013 | 07000016 | Xeon D-1518/19/21/27/28/31/33/37/41/48, Pentium D1507/08/09/17/19
 | BDX-DE         | Y0       | 06-56-04/10 | 0f000012 | 0f000014 | Xeon D-1557/59/67/71/77/81/87
-| BDX-NS         | A0       | 06-56-05/10 | 0e00000a | 0e00000c | Xeon D-1513N/23/33/43/53
+| BDX-NS         | A1       | 06-56-05/10 | 0e00000a | 0e00000c | Xeon D-1513N/23/33/43/53
 | APL            | D0       | 06-5c-09/03 | 00000032 | 00000036 | Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
 | APL            | E0       | 06-5c-0a/03 | 0000000c | 00000010 | Atom x5/7-E39xx
 | GLK            | B0       | 06-7a-01/01 | 00000028 | 0000002c | Pentium Silver N/J5xxx, Celeron N/J4xxx
