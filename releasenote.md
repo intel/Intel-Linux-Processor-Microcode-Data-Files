@@ -1,4 +1,25 @@
 # Release Notes
+## [microcode-20220419](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20220419)
+
+### Purpose
+
+- Update for functional issues. Refer to errata APLI-11 in [Intel® Atom® Processor E3900 Series](https://cdrdv2.intel.com/v1/dl/getContent/612204) for details.
+
+### New Platforms
+
+None
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| APL            | E0       | 06-5c-0a/03 | 00000024 | 00000028 | Atom x5-E39xx
+
+### Removed Platforms
+
+None
+
+
 ## [microcode-2022027](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20220207)
 
 ### Purpose
@@ -45,7 +66,7 @@ None
 | DNV            | B0       | 06-5f-01/01 | 00000034 | 00000036 | Atom C Series
 | ICX-SP         | D0       | 06-6a-06/87 | 0d0002a0 | 0d000331 | Xeon Scalable Gen3
 | GLK            | B0       | 06-7a-01/01 | 00000036 | 00000038 | Pentium Silver N/J5xxx, Celeron N/J4xxx
-| GKL-R          | R0       | 06-7a-08/01 | 0000001a | 0000001c | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| GLK-R          | R0       | 06-7a-08/01 | 0000001a | 0000001c | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
 | ICL-U/Y        | D1       | 06-7e-05/80 | 000000a6 | 000000a8 | Core Gen10 Mobile
 | LKF            | B2/B3    | 06-8a-01/10 | 0000002a | 0000002d | Core w/Hybrid Technology
 | TGL            | B1       | 06-8c-01/80 | 00000088 | 0000009a | Core Gen11 Mobile
@@ -139,7 +160,7 @@ None
 | SKL-H/S        | R0/N0    | 06-5e-03/36 | 000000e2 | 000000ea | Core Gen6; Xeon E3 v5
 | DNV            | B0       | 06-5f-01/01 | 0000002e | 00000034 | Atom C Series
 | GLK            | B0       | 06-7a-01/01 | 00000034 | 00000036 | Pentium Silver N/J5xxx, Celeron N/J4xxx
-| GKL-R          | R0       | 06-7a-08/01 | 00000018 | 0000001a | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| GLK-R          | R0       | 06-7a-08/01 | 00000018 | 0000001a | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
 | ICL-U/Y        | D1       | 06-7e-05/80 | 000000a0 | 000000a6 | Core Gen10 Mobile
 | LKF            | B2/B3    | 06-8a-01/10 | 00000028 | 0000002a | Core w/Hybrid Technology
 | AML-Y22        | H0       | 06-8e-09/10 | 000000de | 000000ea | Core Gen8 Mobile
@@ -273,7 +294,7 @@ None
 | APL            | D0       | 06-5c-09/03 | 00000038 | 00000040 | Pentium N/J4xxx, Celeron N/J3xxx, Atom x5/7-E39xx
 | APL            | E0       | 06-5c-0a/03 | 00000016 | 0000001e | Atom x5-E39xx
 | SKL-H/S        | R0/N0    | 06-5e-03/36 | 000000d6 | 000000e2 | Core Gen6; Xeon E3 v5
-| GKL-R          | R0       | 06-7a-08/01 | 00000016 | 00000018 | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| GLK-R          | R0       | 06-7a-08/01 | 00000016 | 00000018 | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
 | ICL-U/Y        | D1       | 06-7e-05/80 | 00000078 | 000000a0 | Core Gen10 Mobile
 | AML-Y22        | H0       | 06-8e-09/10 | 000000d6 | 000000de | Core Gen8 Mobile
 | KBL-U/Y        | H0       | 06-8e-09/c0 | 000000d6 | 000000de | Core Gen7 Mobile
@@ -479,8 +500,8 @@ None
 | CML-U62 V1     | A0       | 06-a6-00/80 |          | 000000c6 | Core Gen10 Mobile
 | CNL-U          | D0       | 06-66-03/80 |          | 0000002a | Core Gen8 Mobile
 | SKX-SP         | B1       | 06-55-03/97 |          | 01000151 | Xeon Scalable
-| GKL            | B0       | 06-7a-01/01 |          | 00000032 | Pentium J5005/N5000, Celeron J4005/J4105/N4000/N4100
-| GKL-R          | R0       | 06-7a-08/01 |          | 00000016 | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| GLK            | B0       | 06-7a-01/01 |          | 00000032 | Pentium J5005/N5000, Celeron J4005/J4105/N4000/N4100
+| GLK-R          | R0       | 06-7a-08/01 |          | 00000016 | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
 | ICL U/Y        | D1       | 06-7e-05/80 |          | 00000046 | Core Gen10 Mobile
 
 ### Updated Platforms
@@ -574,8 +595,8 @@ None
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | VLV            | C0       | 06-37-08/02 |          | 00000838 | Atom Z series
-| VLV            | C0       | 06-37-08/0C |          | 00000838 | Celeron N2xxx, Pentium N35xx
-| VLV            | D0       | 06-37-09/0F |          | 0000090c | Atom E38xx
+| VLV            | C0       | 06-37-08/0c |          | 00000838 | Celeron N2xxx, Pentium N35xx
+| VLV            | D0       | 06-37-09/0f |          | 0000090c | Atom E38xx
 | CHV            | C0       | 06-4c-03/01 |          | 00000368 | Atom X series
 | CHV            | D0       | 06-4c-04/01 |          | 00000411 | Atom X series
 | CLX-SP         | B1       | 06-55-07/bf |          | 05000021 | Xeon Scalable Gen2
@@ -634,8 +655,8 @@ None
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | VLV            | C0       | 06-37-08/02 |          | 00000838 | Atom Z series
-| VLV            | C0       | 06-37-08/0C |          | 00000838 | Celeron N2xxx, Pentium N35xx
-| VLV            | D0       | 06-37-09/0F |          | 0000090c | Atom E38xx
+| VLV            | C0       | 06-37-08/0c |          | 00000838 | Celeron N2xxx, Pentium N35xx
+| VLV            | D0       | 06-37-09/0f |          | 0000090c | Atom E38xx
 | CHV            | C0       | 06-4c-03/01 |          | 00000368 | Atom X series
 | CHV            | D0       | 06-4c-04/01 |          | 00000411 | Atom X series
 | CLX-SP         | B1       | 06-55-07/bf |          | 05000021 | Xeon Scalable Gen2
