@@ -18,13 +18,13 @@
 | ADL            | L0       | 06-9a-03/80 |          | 0000041c | Core Gen12
 | ADL            | L0       | 06-9a-04/80 |          | 0000041c | Core Gen12
 | ADL            | C0       | 06-bf-02/03 |          | 0000001f | Core Gen12
-| ADL            | C0       | 06-bf-02/03 |          | 0000001f | Core Gen12
+| ADL            | C0       | 06-bf-05/03 |          | 0000001f | Core Gen12
 
 ### Updated Platforms
 
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
 |:---------------|:---------|:------------|:---------|:---------|:---------
-| VLV            | D0       | 06-37-09/0F | 0000090c | 0000090d | Atom E38xx
+| VLV            | D0       | 06-37-09/0f | 0000090c | 0000090d | Atom E38xx
 | SKL-U/Y        | D0       | 06-4e-03/c0 | 000000ec | 000000f0 | Core Gen6 Mobile
 | SKX-SP         | B1       | 06-55-03/97 | 0100015c | 0100015d | Xeon Scalable
 | SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 02006c0a | 02006d05 | Xeon Scalable
@@ -38,7 +38,7 @@
 | DNV            | B0       | 06-5f-01/01 | 00000036 | 00000038 | Atom C Series
 | ICX-SP         | D0       | 06-6a-06/87 | 0d000331 | 0d000363 | Xeon Scalable Gen3
 | GLK            | B0       | 06-7a-01/01 | 00000038 | 0000003a | Pentium Silver N/J5xxx, Celeron N/J4xxx
-| GKL-R          | R0       | 06-7a-08/01 | 0000001c | 0000001e | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| GLK-R          | R0       | 06-7a-08/01 | 0000001c | 0000001e | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
 | ICL-U/Y        | D1       | 06-7e-05/80 | 000000a8 | 000000b0 | Core Gen10 Mobile
 | LKF            | B2/B3    | 06-8a-01/10 | 0000002d | 00000031 | Core w/Hybrid Technology
 | TGL            | B1       | 06-8c-01/80 | 0000009a | 000000a4 | Core Gen11 Mobile
