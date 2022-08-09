@@ -1,4 +1,41 @@
 # Release Notes
+## [microcode-20220809](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20220809)
+
+### Purpose
+
+- Security updates for [INTEL-SA-00657](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00657.html)
+- Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/scalable/
+xeon-scalable-spec-update.html?wapkw=processor+specification+update) for details.
+
+### New Platforms
+
+None
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| SKX-SP         | B1       | 06-55-03/97 | 0100015d | 0100015e | Xeon Scalable
+| SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 02006d05 | 02006e05 | Xeon Scalable
+| SKX-D          | M1       | 06-55-04/b7 | 02006d05 | 02006e05 | Xeon D-21xx
+| ICX-SP         | D0       | 06-6a-06/87 | 0d000363 | 0d000375 | Xeon Scalable Gen3
+| GLK            | B0       | 06-7a-01/01 | 0000003a | 0000003c | Pentium Silver N/J5xxx, Celeron N/J4xxx
+| GLK-R          | R0       | 06-7a-08/01 | 0000001e | 00000020 | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| ICL-U/Y        | D1       | 06-7e-05/80 | 000000b0 | 000000b2 | Core Gen10 Mobile
+| TGL-R          | C0       | 06-8c-02/c2 | 00000026 | 00000028 | Core Gen11 Mobile
+| TGL-H          | R0       | 06-8d-01/c2 | 0000003e | 00000040 | Core Gen11 Mobile
+| RKL-S          | B0       | 06-a7-01/02 | 00000053 | 00000054 | Core Gen11
+| ADL            | C0       | 06-97-02/03 | 0000001f | 00000022 | Core Gen12
+| ADL            | C0       | 06-97-05/03 | 0000001f | 00000022 | Core Gen12
+| ADL            | L0       | 06-9a-03/80 | 0000041c | 00000421 | Core Gen12
+| ADL            | L0       | 06-9a-04/80 | 0000041c | 00000421 | Core Gen12
+| ADL            | C0       | 06-bf-02/03 | 0000001f | 00000022 | Core Gen12
+| ADL            | C0       | 06-bf-05/03 | 0000001f | 00000022 | Core Gen12
+
+### Removed Platforms
+
+None
+
 ## [microcode-20220510](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20220510)
 
 ### Purpose
@@ -18,7 +55,7 @@
 | ADL            | L0       | 06-9a-03/80 |          | 0000041c | Core Gen12
 | ADL            | L0       | 06-9a-04/80 |          | 0000041c | Core Gen12
 | ADL            | C0       | 06-bf-02/03 |          | 0000001f | Core Gen12
-| ADL            | C0       | 06-bf-02/03 |          | 0000001f | Core Gen12
+| ADL            | C0       | 06-bf-05/03 |          | 0000001f | Core Gen12
 
 ### Updated Platforms
 
@@ -38,7 +75,7 @@
 | DNV            | B0       | 06-5f-01/01 | 00000036 | 00000038 | Atom C Series
 | ICX-SP         | D0       | 06-6a-06/87 | 0d000331 | 0d000363 | Xeon Scalable Gen3
 | GLK            | B0       | 06-7a-01/01 | 00000038 | 0000003a | Pentium Silver N/J5xxx, Celeron N/J4xxx
-| GKL-R          | R0       | 06-7a-08/01 | 0000001c | 0000001e | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| GLK-R          | R0       | 06-7a-08/01 | 0000001c | 0000001e | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
 | ICL-U/Y        | D1       | 06-7e-05/80 | 000000a8 | 000000b0 | Core Gen10 Mobile
 | LKF            | B2/B3    | 06-8a-01/10 | 0000002d | 00000031 | Core w/Hybrid Technology
 | TGL            | B1       | 06-8c-01/80 | 0000009a | 000000a4 | Core Gen11 Mobile
