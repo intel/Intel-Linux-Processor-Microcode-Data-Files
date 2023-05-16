@@ -1,9 +1,10 @@
 # Release Notes
 ## [microcode-20230512](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230512)
 
-### Purpose
+### Functional Updates
 
 - Security updates for [INTEL-SA-NA]
+*Microcode 20230512 update released on May 12, 2023, does not contain any security updates and the note, [INTEL-SA-NA] is meant to convey that there are no applicable (Not Applicable) security updates in the package.*
 
 ### New Platforms
 
