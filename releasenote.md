@@ -1,24 +1,24 @@
 # Release Notes
-## [microcode-microcode-20230512-rev2](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230512-rev2)
+## [microcode-20230512-rev2](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230512-rev2)
 
 ### Purpose
-•	Update for functional issues. Refer to 13th Generation Intel® Core™ Processor Specification Update for details.
-•	Update for functional issues. Refer to 12th Generation Intel® Core™ Processor Family for details.
-•	Update for functional issues. Refer to 11th Gen Intel® Core™ Processor Specification Update for details.
-•	Update for functional issues. Refer to 10th Generation Intel® Core™ Processor Specification Update for details.
-•	Update for functional issues. Refer to 10th Gen Intel® Core™ Processor Families Specification Update for details.
-•	Update for functional issues. Refer to 8th and 9th Generation Intel® Core™ Processor Family Spec Update for details.
-•	Update for functional issues. Refer to 8th Generation Intel® Core™ Processor Families Specification Update for details. 
-•	Update for functional issues. Refer to 7th and 8th Generation Intel® Core™ Processor Specification Update for details.
-•	Update for functional issues. Refer to Intel® Processors and Intel® Core™ i3 N-Series for details.  
-•	Update for functional issues. Refer to 4th Gen Intel® Xeon® Scalable Processors Specification Update for details.
-•	Update for functional issues. Refer to 3rd Generation Intel® Xeon® Scalable Processors Specification Update for details.
-•	Update for functional issues. Refer to 2nd Generation Intel® Xeon® Processor Scalable Family Specification Update for details.
-•	Update for functional issues. Refer to Intel® Xeon® Processor Scalable Family Specification Update for details.
-•	Update for functional issues. Refer to 3rd Generation Intel® Xeon® Processor Scalable Family Specification Update for details.
-•	Update for functional issues. Refer to Intel® Xeon® E-2300 Processor Specification Update for details.
-•	Update for functional issues. Refer to Intel® Xeon® D-2700 Processor Specification Update for details.
-•	Update for functional issues. Refer to Intel® Xeon® D-2100 Processor Specification Update for details.
+- Update for functional issues. Refer to [13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
+- Update for functional issues. Refer to [11th Gen Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/631123) for details.
+- Update for functional issues. Refer to [10th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/615213) for details.
+- Update for functional issues. Refer to [10th Gen Intel® Core™ Processor Families Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/341079) for details.
+- Update for functional issues. Refer to [8th and 9th Generation Intel® Core™ Processor Family Spec Update](https://cdrdv2.intel.com/v1/dl/getContent/337346) for details.
+- Update for functional issues. Refer to [8th Generation Intel® Core™ Processor Families Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338025) for details. 
+- Update for functional issues. Refer to [7th and 8th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/334663) for details.
+- Update for functional issues. Refer to [Intel® Processors and Intel® Core™ i3 N-Series](https://cdrdv2.intel.com/v1/dl/getContent/764616) for details.  
+- Update for functional issues. Refer to [4th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/772415) for details.
+- Update for functional issues. Refer to [3rd Generation Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/634897) for details.
+- Update for functional issues. Refer to [2nd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338848) for details.
+- Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/613537) for details.
+- Update for functional issues. Refer to [3rd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780) for details.
+- Update for functional issues. Refer to [Intel® Xeon® E-2300 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/709192) for details.
+- Update for functional issues. Refer to [Intel® Xeon® D-2700 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/714071) for details.
+- Update for functional issues. Refer to [Intel® Xeon® D-2100 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338854) for details.
 
 ### New Platforms
 
