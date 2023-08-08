@@ -1,4 +1,92 @@
 # Release Notes
+## [microcode-20230808](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230808)
+
+### Purpose
+
+- Security updates for [INTEL-SA-00828](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00828.html)
+- Security updates for [INTEL-SA-00836](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00836.html)
+- Security updates for [INTEL-SA-00837](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00837.html)
+
+- Update for functional issues. Refer to [13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
+- Update for functional issues. Refer to [11th Gen Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/631123) for details.
+- Update for functional issues. Refer to [10th Gen Intel® Core™ Processor Families Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/341079) for details.
+- Update for functional issues. Refer to [8th and 9th Generation Intel® Core™ Processor Family Spec Update](https://cdrdv2.intel.com/v1/dl/getContent/337346) for details.
+- Update for functional issues. Refer to [8th Generation Intel® Core™ Processor Families Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338025) for details. 
+- Update for functional issues. Refer to [7th and 8th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/334663) for details.
+- Update for functional issues. Refer to [Intel® Processors and Intel® Core™ i3 N-Series](https://cdrdv2.intel.com/v1/dl/getContent/764616) for details.  
+- Update for functional issues. Refer to [4th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/772415) for details.
+- Update for functional issues. Refer to [3rd Generation Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/634897) for details.
+- Update for functional issues. Refer to [2nd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338848) for details.
+- Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/613537) for details.
+- Update for functional issues. Refer to [3rd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780) for details.
+- Update for functional issues. Refer to [Intel® Xeon® E-2300 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/709192) for details.
+- Update for functional issues. Refer to [Intel® Xeon® D-2700 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/714071) for details.
+- Update for functional issues. Refer to [Intel® Xeon® D-2100 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338854) for details.
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| ADL-N          | A0       | 06-be-00/11 |          | 00000011 | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E 
+| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 |          | 00004119 | Core Gen13 
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| CML-U62 V2     | K1       | 06-a6-01/80 | 000000f6 | 000000f8 | Core Gen10 Mobile
+| SKX-D          | H0       | 06-55-04/b7 | 02006f05 | 02007006 | Xeon D-21xx
+| SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 02006e05 | 02007006 | Xeon Scalable
+| KBL-G/H/S/X/E3 | B0       | 06-9e-09/2a | 000000f2 | 000000f4 | Core Gen7; Xeon E3 v6
+| ADL            | L0       | 06-9a-03/80 | 0000042a | 0000042c | Core Gen12
+| ADL            | L0       | 06-9a-04/80 | 0000042a | 0000042c | Core Gen12
+| ICX-SP         | Dx/M1    | 06-6a-06/87 | 0d000390 | 0d0003a5 | Xeon Scalable Gen3
+| CML-S102       | Q0       | 06-a5-05/22 | 000000f6 | 000000f8 | Core Gen10
+| CFL-U43e       | D0       | 06-8e-0a/c0 | 000000f2 | 000000f4 | Core Gen8 Mobile
+| KBL-R U        | Y0       | 06-8e-0a/c0 | 000000f2 | 000000f4 | Core Gen8 Mobile
+| CFL-H          | R0       | 06-9e-0d/22 | 000000f8 | 000000fa | Core Gen9 Mobile
+| RKL-S          | B0       | 06-a7-01/02 | 00000058 | 00000059 | Core Gen11
+| ICL-U/Y        | D1       | 06-7e-05/80 | 000000ba | 000000bc | Core Gen10 Mobile
+| TGL-H          | R0       | 06-8d-01/c2 | 00000044 | 00000046 | Core Gen11 Mobile
+| SPR-SP         | E5/S3    | 06-8f-08/87 | 2b000461 | 2b0004b1 | Xeon Scalable Gen4
+| SPR-SP         | E4/S2    | 06-8f-07/87 | 2b000461 | 2b0004b1 | Xeon Scalable Gen4
+| SPR-SP         | E3       | 06-8f-06/87 | 2b000461 | 2b0004b1 | Xeon Scalable Gen4
+| SPR-SP         | E2       | 06-8f-05/87 | 2b000461 | 2b0004b1 | Xeon Scalable Gen4
+| SPR-SP         | E0       | 06-8f-04/87 | 2b000461 | 2b0004b1 | Xeon Scalable Gen4
+| CML-S62        | G1       | 06-a5-03/22 | 000000f6 | 000000f8 | Core Gen10
+| AML-Y22        | H0       | 06-8e-09/10 | 000000f0 | 000000f4 | Core Gen8 Mobile
+| RPL-S          | B0       | 06-b7-01/32 | 00000113 | 00000119 | Core Gen13
+| CML-U62 V1     | A0       | 06-a6-00/80 | 000000f6 | 000000f8 | Core Gen10 Mobile
+| ADL-N          | A0       | 06-be-00/11 |          | 00000011 | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
+| CPX-SP         | A1       | 06-55-0b/bf | 07002601 | 07002703 | Xeon Scalable Gen3
+| CLX-SP         | B0       | 06-55-06/bf | 04003501 | 04003604 | Xeon Scalable Gen2
+| CFL-H/S/E3     | U0       | 06-9e-0a/22 | 000000f2 | 000000f4 | Core Gen8 Desktop, Mobile, Xeon E
+| SPR-HBM        | Bx       | 06-8f-08/10 | 2c0001d1 | 2c000271 | Xeon Max
+| WHL-U          | W0       | 06-8e-0b/d0 | 000000f2 | 000000f4 | Core Gen8 Mobile
+| CLX-SP         | B1       | 06-55-07/bf | 05003501 | 05003604 | Xeon Scalable Gen2
+| CFL-S          | B0       | 06-9e-0b/02 | 000000f2 | 000000f4 | Core Gen8
+| TGL-R          | C0       | 06-8c-02/c2 | 0000002a | 0000002c | Core Gen11 Mobile
+| KBL-U/Y        | H0       | 06-8e-09/c0 | 000000f2 | 000000f4 | Core Gen7 Mobile
+| KBL-U23e       | J1       | 06-8e-09/c0 | 000000f2 | 000000f4 | Core Gen7 Mobile
+| AML-Y42        | V0       | 06-8e-0c/94 | 000000f6 | 000000f8 | Core Gen10 Mobile
+| CML-U42        | V0       | 06-8e-0c/94 | 000000f6 | 000000f8 | Core Gen10 Mobile
+| CML-Y42        | V0       | 06-8e-0c/94 | 000000f6 | 000000f8 | Core Gen10 Mobile
+| WHL-U          | V0       | 06-8e-0c/94 | 000000f6 | 000000f8 | Core Gen8 Mobile
+| SKX-SP         | B1       | 06-55-03/97 | 01000171 | 01000181 | Xeon Scalable
+| CFL-H/S        | P0       | 06-9e-0c/22 | 000000f2 | 000000f4 | Core Gen9
+| CFL-S          | P0       | 06-9e-0c/22 | 000000f2 | 000000f4 | Core Gen9 Desktop
+| TGL            | B0/B1    | 06-8c-01/80 | 000000aa | 000000ac | Core Gen11 Mobile
+| ADL            | C0       | 06-97-02/07 | 0000002c | 0000002e | Core Gen12
+| ADL            | C0       | 06-97-05/07 | 0000002c | 0000002e | Core Gen12
+| ADL            | C0       | 06-bf-02/07 | 0000002c | 0000002e | Core Gen12
+| ADL            | C0       | 06-bf-05/07 | 0000002c | 0000002e | Core Gen12
+| CML-H          | R1       | 06-a5-02/20 | 000000f6 | 000000f8 | Core Gen10 Mobile
+| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 |          | 00004119 | Core Gen13 
+| RPL-U 2+8      | Q0       | 06-ba-03/e0 |          | 00004119 | Core Gen13
+
+
+# Release Notes
 ## [microcode-20230512-rev2](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230512-rev2)
 
 ### Purpose
