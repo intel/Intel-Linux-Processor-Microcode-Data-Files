@@ -679,10 +679,10 @@
 | KBL-U/Y        | H0       | 06-8e-09/c0 | 000000f0 | 000000f2 | Core Gen7 Mobile
 | LKF            | B2/B3    | 06-8a-01/10 | 00000032 | 00000033 | Core w/Hybrid Technology
 | RKL-S          | B0       | 06-a7-01/02 | 00000057 | 00000058 | Core Gen11
-| RPL-H 6+8      | J0       | 06-ba-02/07 | 0000410e | 00004112 | Core Gen13
-| RPL-P 6+8      | J0       | 06-ba-02/07 | 0000410e | 00004112 | Core Gen13
+| RPL-H 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
+| RPL-P 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
 | RPL-S          | S0       | 06-b7-01/32 | 00000112 | 00000113 | Core Gen13
-| RPL-U 2+8      | Q0       | 06-ba-03/07 | 0000410e | 00004112 | Core Gen13
+| RPL-U 2+8      | Q0       | 06-ba-03/c0 | 0000410e | 00004112 | Core Gen13
 | SKX-D          | H0       | 06-55-04/b7 | 02006e05 | 02006f05 | Xeon D-21xx
 | SKX-SP         | B1       | 06-55-03/97 | 01000161 | 01000171 | Xeon Scalable
 | SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 02006e05 | 02006f05 | Xeon Scalable
@@ -745,10 +745,10 @@
 | KBL-U/Y        | H0       | 06-8e-09/c0 |          | 000000f2 | Core Gen7 Mobile
 | LKF            | B2/B3    | 06-8a-01/10 | 00000032 | 00000033 | Core w/Hybrid Technology
 | RKL-S          | B0       | 06-a7-01/02 | 00000057 | 00000058 | Core Gen11
-| RPL-H 6+8      | J0       | 06-ba-02/07 | 0000410e | 00004112 | Core Gen13
-| RPL-P 6+8      | J0       | 06-ba-02/07 | 0000410e | 00004112 | Core Gen13
+| RPL-H 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
+| RPL-P 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
 | RPL-S          | S0       | 06-b7-01/32 | 00000112 | 00000113 | Core Gen13
-| RPL-U 2+8      | Q0       | 06-ba-03/07 | 0000410e | 00004112 | Core Gen13
+| RPL-U 2+8      | Q0       | 06-ba-03/c0 | 0000410e | 00004112 | Core Gen13
 | SKX-D          | H0       | 06-55-04/b7 |          | 02006f05 | Xeon D-21xx
 | SKX-SP         | B1       | 06-55-03/97 | 01000161 | 01000171 | Xeon Scalable
 | SKX-SP         | H0/M0/U0 | 06-55-04/b7 |          | 02006f05 | Xeon Scalable
@@ -784,9 +784,9 @@
 | SPR-SP         | E4       | 06-8f-07/87 |          | 2b000181 | Xeon Scalable Gen4
 | SPR-SP         | E5       | 06-8f-08/87 |          | 2b000181 | Xeon Scalable Gen4
 | SPR-HBM        | B3       | 06-8f-08/10 |          | 2c000170 | Xeon Max
-| RPL-P 6+8      | J0       | 06-ba-02/07 |          | 0000410e | Core Gen13
-| RPL-H 6+8      | J0       | 06-ba-02/07 |          | 0000410e | Core Gen13
-| RPL-U 2+8      | Q0       | 06-ba-02/07 |          | 0000410e | Core Gen13
+| RPL-P 6+8      | J0       | 06-ba-02/c0 |          | 0000410e | Core Gen13
+| RPL-H 6+8      | J0       | 06-ba-02/c0 |          | 0000410e | Core Gen13
+| RPL-U 2+8      | Q0       | 06-ba-03/c0 |          | 0000410e | Core Gen13
 
 ### Updated Platforms
 
