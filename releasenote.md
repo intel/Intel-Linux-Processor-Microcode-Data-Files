@@ -146,7 +146,7 @@
 | RKL-S          | B0       | 06-a7-01/02 | 00000057 | 00000058 | Core Gen11
 | RPL-H 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
 | RPL-P 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
-| RPL-S          | S0       | 06-b7-01/32 | 00000112 | 00000113 | Core Gen13
+| RPL-S          | B0       | 06-b7-01/32 | 00000112 | 00000113 | Core Gen13
 | RPL-U 2+8      | Q0       | 06-ba-03/c0 | 0000410e | 00004112 | Core Gen13
 | SKX-D          | H0       | 06-55-04/b7 | 02006e05 | 02006f05 | Xeon D-21xx
 | SKX-SP         | B1       | 06-55-03/97 | 01000161 | 01000171 | Xeon Scalable
@@ -212,7 +212,7 @@
 | RKL-S          | B0       | 06-a7-01/02 | 00000057 | 00000058 | Core Gen11
 | RPL-H 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
 | RPL-P 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
-| RPL-S          | S0       | 06-b7-01/32 | 00000112 | 00000113 | Core Gen13
+| RPL-S          | B0       | 06-b7-01/32 | 00000112 | 00000113 | Core Gen13
 | RPL-U 2+8      | Q0       | 06-ba-03/c0 | 0000410e | 00004112 | Core Gen13
 | SKX-D          | H0       | 06-55-04/b7 |          | 02006f05 | Xeon D-21xx
 | SKX-SP         | B1       | 06-55-03/97 | 01000161 | 01000171 | Xeon Scalable
@@ -274,7 +274,7 @@
 | JSL            | A0/A1    | 06-9c-00/01 | 24000023 | 24000024 | Pentium N6000/N6005, Celeron N4500/N4505/N5100/N5105
 | LKF            | B2/B3    | 06-8a-01/10 | 00000031 | 00000032 | Core w/Hybrid Technology
 | RKL-S          | B0       | 06-a7-01/02 | 00000056 | 00000057 | Core Gen11
-| RPL-S          | S0       | 06-b7-01/32 | 0000010e | 00000112 | Core Gen13
+| RPL-S          | B0       | 06-b7-01/32 | 0000010e | 00000112 | Core Gen13
 | SKX-SP         | B1       | 06-55-03/97 | 0100015e | 01000161 | Xeon Scalable
 
 
@@ -295,7 +295,7 @@
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | ICL-D          | B0       | 06-6c-01/10 |          | 01000201 | Xeon D-17xx, D-27xx
-| RPL-S          | S0       | 06-b7-01/32 |          | 0000010e | Core Gen13
+| RPL-S          | B0       | 06-b7-01/32 |          | 0000010e | Core Gen13
 
 ### Updated Platforms
 
