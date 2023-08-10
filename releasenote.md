@@ -484,8 +484,8 @@
 
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
 |:---------------|:---------|:------------|:---------|:---------|:---------
-| ADL-N     | A0    | 06-be-00/11 |     | 00000011 | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
-| RPL-H/P/PX 6+8 | J0    | 06-ba-02/e0 |     | 00004119 | Core Gen13
+| ADL-N          | A0       | 06-be-00/11 |          | 00000011 | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
+| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 |          | 00004119 | Core Gen13
 
 ### Updated Platforms
 
@@ -715,25 +715,25 @@
 
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
 |:---------------|:---------|:------------|:---------|:---------|:---------
-| ADL      | C0    | 06-97-02/07 | 00000026 | 0000002c | Core Gen12
-| ADL      | C0    | 06-97-05/07 | 00000026 | 0000002c | Core Gen12
-| ADL      | C0    | 06-bf-02/07 | 00000026 | 0000002c | Core Gen12
-| ADL      | C0    | 06-bf-05/07 | 00000026 | 0000002c | Core Gen12
-| ADL      | L0    | 06-9a-03/80 | 00000424 | 00000429 | Core Gen12
-| ADL      | L0    | 06-9a-04/80 | 00000424 | 00000429 | Core Gen12
-| CLX-SP   | B0    | 06-55-06/bf | 04003302 | 04003303 | Xeon Scalable Gen2
-| CLX-SP   | B1    | 06-55-07/bf | 05003302 | 05003303 | Xeon Scalable Gen2
-| CPX-SP   | A1    | 06-55-0b/bf | 07002501 | 07002503 | Xeon Scalable Gen3
-| GLK      | B0    | 06-7a-01/01 | 0000003c | 0000003e | Pentium Silver N/J5xxx, Celeron N/J4xxx
-| GLK-R    | R0    | 06-7a-08/01 | 00000020 | 00000022 | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
-| ICL-D    | B0    | 06-6c-01/10 | 01000201 | 01000211 | Xeon D-17xx, D-27xx
-| ICL-U/Y  | D1    | 06-7e-05/80 | 000000b6 | 000000b8 | Core Gen10 Mobile
-| ICX-SP   | D0    | 06-6a-06/87 | 0d000375 | 0d000389 | Xeon Scalable Gen3
-| JSL      | A0/A1 | 06-9c-00/01 | 24000023 | 24000024 | Pentium N6000/N6005, Celeron N4500/N4505/N5100/N5105
-| LKF      | B2/B3 | 06-8a-01/10 | 00000031 | 00000032 | Core w/Hybrid Technology
-| RKL-S    | B0    | 06-a7-01/02 | 00000056 | 00000057 | Core Gen11
-| RPL-S    | S0    | 06-b7-01/32 | 0000010e | 00000112 | Core Gen13
-| SKX-SP   | B1    | 06-55-03/97 | 0100015e | 01000161 | Xeon Scalable
+| ADL            | C0       | 06-97-02/07 | 00000026 | 0000002c | Core Gen12
+| ADL            | C0       | 06-97-05/07 | 00000026 | 0000002c | Core Gen12
+| ADL            | C0       | 06-bf-02/07 | 00000026 | 0000002c | Core Gen12
+| ADL            | C0       | 06-bf-05/07 | 00000026 | 0000002c | Core Gen12
+| ADL            | L0       | 06-9a-03/80 | 00000424 | 00000429 | Core Gen12
+| ADL            | L0       | 06-9a-04/80 | 00000424 | 00000429 | Core Gen12
+| CLX-SP         | B0       | 06-55-06/bf | 04003302 | 04003303 | Xeon Scalable Gen2
+| CLX-SP         | B1       | 06-55-07/bf | 05003302 | 05003303 | Xeon Scalable Gen2
+| CPX-SP         | A1       | 06-55-0b/bf | 07002501 | 07002503 | Xeon Scalable Gen3
+| GLK            | B0       | 06-7a-01/01 | 0000003c | 0000003e | Pentium Silver N/J5xxx, Celeron N/J4xxx
+| GLK-R          | R0       | 06-7a-08/01 | 00000020 | 00000022 | Pentium J5040/N5030, Celeron J4125/J4025/N4020/N4120
+| ICL-D          | B0       | 06-6c-01/10 | 01000201 | 01000211 | Xeon D-17xx, D-27xx
+| ICL-U/Y        | D1       | 06-7e-05/80 | 000000b6 | 000000b8 | Core Gen10 Mobile
+| ICX-SP         | D0       | 06-6a-06/87 | 0d000375 | 0d000389 | Xeon Scalable Gen3
+| JSL            | A0/A1    | 06-9c-00/01 | 24000023 | 24000024 | Pentium N6000/N6005, Celeron N4500/N4505/N5100/N5105
+| LKF            | B2/B3    | 06-8a-01/10 | 00000031 | 00000032 | Core w/Hybrid Technology
+| RKL-S          | B0       | 06-a7-01/02 | 00000056 | 00000057 | Core Gen11
+| RPL-S          | S0       | 06-b7-01/32 | 0000010e | 00000112 | Core Gen13
+| SKX-SP         | B1       | 06-55-03/97 | 0100015e | 01000161 | Xeon Scalable
 
 # Release Notes
 ## [microcode-20221108](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20221108)
