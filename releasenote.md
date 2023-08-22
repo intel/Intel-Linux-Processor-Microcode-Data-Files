@@ -49,7 +49,6 @@
 | CFL-H/S/E3     | U0       | 06-9e-0a/22 | 000000f2 | 000000f4 | Core Gen8 Desktop, Mobile, Xeon E
 | CFL-H/S        | P0       | 06-9e-0c/22 | 000000f2 | 000000f4 | Core Gen9
 | CFL-S          | B0       | 06-9e-0b/02 | 000000f2 | 000000f4 | Core Gen8
-| CFL-S          | P0       | 06-9e-0c/22 | 000000f2 | 000000f4 | Core Gen9 Desktop
 | CFL-U43e       | D0       | 06-8e-0a/c0 | 000000f2 | 000000f4 | Core Gen8 Mobile
 | CLX-SP         | B0       | 06-55-06/bf | 04003501 | 04003604 | Xeon Scalable Gen2
 | CLX-SP         | B1       | 06-55-07/bf | 05003501 | 05003604 | Xeon Scalable Gen2
