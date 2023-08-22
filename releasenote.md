@@ -577,7 +577,7 @@
 | ADL            | C0       | 06-bf-05/07 | 0000002c | 0000002e | Core Gen12
 | ADL            | L0       | 06-9a-03/80 | 0000042a | 0000042c | Core Gen12
 | ADL            | L0       | 06-9a-04/80 | 0000042a | 0000042c | Core Gen12
-| ADL-N          | A0       | 06-be-00/11 |          | 00000011 | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
+| ADL-N (1)      | A0       | 06-be-00/11 | 00000010 | 00000011 | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
 | AML-Y22        | H0       | 06-8e-09/10 | 000000f2 | 000000f4 | Core Gen8 Mobile
 | AML-Y42        | V0       | 06-8e-0c/94 | 000000f6 | 000000f8 | Core Gen10 Mobile
 | CFL-H          | R0       | 06-9e-0d/22 | 000000f8 | 000000fa | Core Gen9 Mobile
@@ -602,9 +602,9 @@
 | KBL-U23e       | J1       | 06-8e-09/c0 | 000000f2 | 000000f4 | Core Gen7 Mobile
 | KBL-U/Y        | H0       | 06-8e-09/c0 | 000000f2 | 000000f4 | Core Gen7 Mobile
 | RKL-S          | B0       | 06-a7-01/02 | 00000058 | 00000059 | Core Gen11
-| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 |          | 00004119 | Core Gen13
+| RPL-H/P 6+8 (2)| J0       | 06-ba-02/e0 | 00004112 | 00004119 | Core Gen13
 | RPL-S          | B0       | 06-b7-01/32 | 00000113 | 00000119 | Core Gen13
-| RPL-U 2+8      | Q0       | 06-ba-03/e0 |          | 00004119 | Core Gen13
+| RPL-U 2+8 (2)  | Q0       | 06-ba-03/e0 | 00004112 | 00004119 | Core Gen13
 | SKX-D          | H0       | 06-55-04/b7 | 02006f05 | 02007006 | Xeon D-21xx
 | SKX-SP         | B1       | 06-55-03/97 | 01000171 | 01000181 | Xeon Scalable
 | SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 02006f05 | 02007006 | Xeon Scalable
@@ -619,6 +619,9 @@
 | TGL-R          | C0       | 06-8c-02/c2 | 0000002a | 0000002c | Core Gen11 Mobile
 | WHL-U          | V0       | 06-8e-0c/94 | 000000f6 | 000000f8 | Core Gen8 Mobile
 | WHL-U          | W0       | 06-8e-0b/d0 | 000000f2 | 000000f4 | Core Gen8 Mobile
+
+(1) The previous version of the microcode had the platform mask value of 0x01.
+(2) Previous versions of the microcode had the platform mask value of 0xc0.
 
 
 ## [microcode-20230512-rev2](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230512-rev2)
