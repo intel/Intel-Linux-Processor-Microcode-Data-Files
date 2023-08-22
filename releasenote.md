@@ -86,7 +86,6 @@
 | RPL-U 2+8      | Q0       | 06-ba-03/e0 |          | 00004119 | Core Gen13
 
 
-# Release Notes
 ## [microcode-20230512-rev2](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230512-rev2)
 
 ### Purpose
@@ -166,7 +165,7 @@
 | WHL-U          | V0       | 06-8e-0c/94 | 000000f4 | 000000f6 | Core Gen8 Mobile
 | WHL-U          | W0       | 06-8e-0b/d0 | 000000f0 | 000000f2 | Core Gen8 Mobile
 
-# Release Notes
+
 ## [microcode-20230512](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230512)
 
 ### Functional Updates
@@ -233,7 +232,6 @@
 | WHL-U          | W0       | 06-8e-0b/d0 |          | 000000f2 | Core Gen8 Mobile
 
 
-# Release Notes
 ## [microcode-20230214](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230214)
 
 ### Purpose
@@ -279,7 +277,7 @@
 | RPL-S          | S0       | 06-b7-01/32 | 0000010e | 00000112 | Core Gen13
 | SKX-SP         | B1       | 06-55-03/97 | 0100015e | 01000161 | Xeon Scalable
 
-# Release Notes
+
 ## [microcode-20221108](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20221108)
 
 ### Purpose
@@ -328,7 +326,7 @@
 
 None
 
-# Release Notes
+
 ## [microcode-20220809](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20220809)
 
 ### Purpose
