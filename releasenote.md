@@ -1,4 +1,46 @@
 # Release Notes
+## [microcode-20240514](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240514)
+
+### Purpose
+
+- Security updates for [INTEL-SA-01051](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01051.html)
+- Security updates for [INTEL-SA-01052](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01052.html)
+- Security updates for [INTEL-SA-01036](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01036.html)
+- Update for functional issues. Refer to [5th Gen Intel® Xeon® Processor Scalable Family](https://cdrdv2.intel.com/v1/dl/getContent/793902) for details.
+- Update for functional issues. Refer to [4th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/772415) for details.
+- Update for functional issues. Refer to [14th & 13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
+- Update for functional issues. Refer to [Intel® Processors and Intel® Core™ i3 N-Series](https://cdrdv2.intel.com/v1/dl/getContent/764616) for details.
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| ADL            | C0       | 06-97-02/07 | 00000034 | 00000035 | Core Gen12
+| ADL            | H0       | 06-97-05/07 | 00000034 | 00000035 | Core Gen12
+| ADL            | L0       | 06-9a-03/80 | 00000432 | 00000433 | Core Gen12
+| ADL            | R0       | 06-9a-04/80 | 00000432 | 00000433 | Core Gen12
+| ADL-N          | N0       | 06-be-00/11 | 00000015 | 00000017 | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
+| AZB            | A0       | 06-9a-04/40 | 00000005 | 00000007 | Intel(R) Atom(R) C1100
+| AZB            | R0       | 06-9a-04/40 | 00000005 | 00000007 | Intel(R) Atom(R) C1100
+| EMR-SP         | A0      | 06-cf-01/87 | 21000200 | 21000230 | Xeon Scalable Gen5
+| EMR-SP         | A1      | 06-cf-02/87 | 21000200 | 21000230 | Xeon Scalable Gen5
+| RPL-E/HX/S     | B0       | 06-b7-01/32 | 00000122 | 00000123 | Core Gen13/Gen14
+| RPL-HX/S       | C0       | 06-bf-02/07 | 00000034 | 00000035 | Core Gen13/Gen14
+| RPL-S          | H0       | 06-bf-05/07 | 00000034 | 00000035 | Core Gen13/Gen14
+| SPR-HBM        | Bx       | 06-8f-08/10 | 2c000290 | 2c000390 | Xeon Max
+| SPR-SP         | E2       | 06-8f-05/87 | 2b000590 | 2b0005c0 | Xeon Scalable Gen4
+| SPR-SP         | E3       | 06-8f-06/87 | 2b000590 | 2b0005c0 | Xeon Scalable Gen4
+| SPR-SP         | E4/S2    | 06-8f-07/87 | 2b000590 | 2b0005c0 | Xeon Scalable Gen4
+| SPR-SP         | E5/S3    | 06-8f-08/87 | 2b000590 | 2b0005c0 | Xeon Scalable Gen4
+
+# Release Notes
 ## [microcode-20240312](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240312)
 
 ### Purpose
