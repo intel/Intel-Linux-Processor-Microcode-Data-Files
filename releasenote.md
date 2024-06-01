@@ -1,4 +1,25 @@
 # Release Notes
+## [microcode-20240531](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240531)
+
+### Purpose
+
+- Update for functional issues. Refer to [Intel® Pentium® Silver and Intel® Celeron® Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/336562)
+
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| GLK            | B0       | 06-7a-01/01 | 00000040 | 00000042 | Pentium Silver N/J5xxx, Celeron N/J4xxx
+
+
+# Release Notes
 ## [microcode-20240514](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240514)
 
 ### Purpose
