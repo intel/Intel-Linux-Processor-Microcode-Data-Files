@@ -1,4 +1,79 @@
 # Release Notes
+## [microcode-20240813](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240813)
+
+## Update: Corrected the MCU file for 06-a5-03
+
+### Purpose
+
+- Security updates for [INTEL-SA-01083](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01083.html)
+- Security updates for [INTEL-SA-01118](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01118.html)
+- Security updates for [INTEL-SA-01100](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01100.html)
+- Security updates for [INTEL-SA-01038](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01038.html)
+- Security updates for [INTEL-SA-01046](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01046.html)
+
+
+- Update for functional issues. Refer to [Intel® Core™ Ultra Processor](https://cdrdv2.intel.com/v1/dl/getContent/792254) for details.
+- Update for functional issues. Refer to [3rd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780) for details.
+- Update for functional issues. Refer to [3rd Generation Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/634897) for details.
+- Update for functional issues. Refer to [2nd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338848) for details
+- Update for functional issues. Refer to [Intel® Xeon® D-2700 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/714071) for details.
+- Update for functional issues. Refer to [Intel® Xeon® E-2300 Processor Specification Update ](https://cdrdv2.intel.com/v1/dl/getContent/709192) for details.
+- Update for functional issues. Refer to [13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
+- Update for functional issues. Refer to [11th Gen Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/631123) for details.
+- Update for functional issues. Refer to [10th Gen Intel® Core™ Processor Families Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/341079) for details.
+- Update for functional issues. Refer to [10th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/615213) for details.
+- Update for functional issues. Refer to [8th and 9th Generation Intel® Core™ Processor Family Spec Update](https://cdrdv2.intel.com/v1/dl/getContent/337346) for details.
+- Update for functional issues. Refer to [8th Generation Intel® Core™ Processor Families Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338025) for details.
+- Update for functional issues. Refer to [7th and 8th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/334663) for details.
+- Update for functional issues. Refer to [Intel® Processors and Intel® Core™ i3 N-Series](https://cdrdv2.intel.com/v1/dl/getContent/764616) for details.
+- Update for functional issues. Refer to [Intel® Atom® x6000E Series, and Intel® Pentium® and Celeron® N and J Series Processors for Internet of Things (IoT) Applications](https://cdrdv2.intel.com/v1/dl/getContent/636674) for details.
+
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| AML-Y22        | H0       | 06-8e-09/10 | 000000f4 | 000000f6 | Core Gen8 Mobile
+| AML-Y42        | V0       | 06-8e-0c/94 | 000000fa | 000000fc | Core Gen10 Mobile
+| CFL-H          | R0       | 06-9e-0d/22 | 000000fc | 00000100 | Core Gen9 Mobile
+| CFL-H/S        | P0       | 06-9e-0c/22 | 000000f6 | 000000f8 | Core Gen9
+| CFL-H/S/E3     | U0       | 06-9e-0a/22 | 000000f6 | 000000f8 | Core Gen8 Desktop, Mobile, Xeon E
+| CFL-S          | B0       | 06-9e-0b/02 | 000000f4 | 000000f6 | Core Gen8
+| CFL-S          | P0       | 06-9e-0c/22 | 000000f6 | 000000f8 | Core Gen9 Desktop
+| CFL-U43e       | D0       | 06-8e-0a/c0 | 000000f4 | 000000f6 | Core Gen8 Mobile
+| CLX-SP         | B1       | 06-55-07/bf | 05003605 | 05003707 | Xeon Scalable Gen2
+| CML-H          | R1       | 06-a5-02/20 | 000000fa | 000000fc | Core Gen10 Mobile
+| CML-S102       | Q0       | 06-a5-05/22 | 000000fa | 000000fc | Core Gen10
+| CML-S62        | G1       | 06-a5-03/22 | 000000fa | 000000fc | Core Gen10
+| CML-U42        | V0       | 06-8e-0c/94 | 000000fa | 000000fc | Core Gen10 Mobile
+| CML-U62 V1     | A0       | 06-a6-00/80 | 000000fa | 000000fe | Core Gen10 Mobile
+| CML-U62 V2     | K1       | 06-a6-01/80 | 000000fa | 000000fc | Core Gen10 Mobile
+| CML-Y42        | V0       | 06-8e-0c/94 | 000000fa | 000000fc | Core Gen10 Mobile
+| CPX-SP         | A1       | 06-55-0b/bf | 07002802 | 07002904 | Xeon Scalable Gen3
+| EHL            | B1       | 06-96-01/01 | 00000019 | 0000001a | Pentium J6426/N6415, Celeron J6412/J6413/N6210/N6211, Atom x6000E
+| ICL-D          | B0       | 06-6c-01/10 | 01000290 | 010002b0 | Xeon D-17xx, D-27xx
+| ICL-U/Y        | D1       | 06-7e-05/80 | 000000c4 | 000000c6 | Core Gen10 Mobile
+| ICX-SP         | Dx/M1    | 06-6a-06/87 | 0d0003d1 | 0d0003e7 | Xeon Scalable Gen3
+| KBL-R U        | Y0       | 06-8e-0a/c0 | 000000f4 | 000000f6 | Core Gen8 Mobile
+| KBL-U23e       | J1       | 06-8e-09/c0 | 000000f4 | 000000f6 | Core Gen7 Mobile
+| KBL-U/Y        | H0       | 06-8e-09/c0 | 000000f4 | 000000f6 | Core Gen7 Mobile
+| MTL            | C-0      | 06-aa-04/e6 | 0000001c | 0000001e | Core™ Ultra Processor
+| RKL-S          | B0       | 06-a7-01/02 | 0000005e | 00000062 | Core Gen11
+| TGL            | B0/B1    | 06-8c-01/80 | 000000b6 | 000000b8 | Core Gen11 Mobile
+| TGL-H          | R0       | 06-8d-01/c2 | 00000050 | 00000052 | Core Gen11 Mobile
+| TGL-R          | C0       | 06-8c-02/c2 | 00000036 | 00000038 | Core Gen11 Mobile
+| WHL-U          | V0       | 06-8e-0c/94 | 000000fa | 000000fc | Core Gen8 Mobile
+| WHL-U          | W0       | 06-8e-0b/d0 | 000000f4 | 000000f6 | Core Gen8 Mobile
+
+
+# Release Notes
 ## [microcode-20240531](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240531)
 
 ### Purpose
