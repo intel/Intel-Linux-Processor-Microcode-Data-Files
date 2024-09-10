@@ -1,4 +1,39 @@
 # Release Notes
+## [microcode-20240910](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240910)
+
+### Purpose
+
+- Security updates for [INTEL-SA-01103](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01103.html)
+- Security updates for [INTEL-SA-01097](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01097.html)
+- Update for functional issues. Refer to [Intel® Core™ Ultra Processor](https://cdrdv2.intel.com/v1/dl/getContent/792254) for details.
+- Update for functional issues. Refer to [13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
+- Update for functional issues. Refer to [Intel® Processors and Intel® Core™ i3 N-Series](https://cdrdv2.intel.com/v1/dl/getContent/764616) for details.
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| TWL            | N0       | 06-be-00/19 |          | 0000001a | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| ADL            | C0       | 06-97-02/07 | 00000035 | 00000036 | Core Gen12
+| ADL            | H0       | 06-97-05/07 | 00000035 | 00000036 | Core Gen12
+| ADL            | L0       | 06-9a-03/80 | 00000433 | 00000434 | Core Gen12
+| ADL            | R0       | 06-9a-04/80 | 00000433 | 00000434 | Core Gen12
+| ADL-N          | N0       | 06-be-00/11 | 00000017 | 0000001a | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
+| MTL            | C0       | 06-aa-04/e6 | 0000001e | 0000001f | Core™ Ultra Processor
+| RPL-E/HX/S     | B0       | 06-b7-01/32 | 00000123 | 00000129 | Core Gen13/Gen14
+| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 | 00004121 | 00004122 | Core Gen13
+| RPL-HX/S       | C0       | 06-bf-02/07 | 00000035 | 00000036 | Core Gen13/Gen14
+| RPL-S          | H0       | 06-bf-05/07 | 00000035 | 00000036 | Core Gen13/Gen14
+| RPL-U 2+8      | Q0       | 06-ba-03/e0 | 00004121 | 00004122 | Core Gen13
+
+
+# Release Notes
 ## [microcode-20240813](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240813)
 
 ## Update: Corrected the MCU file for 06-a5-03
