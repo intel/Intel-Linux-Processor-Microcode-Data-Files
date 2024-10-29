@@ -1,4 +1,24 @@
 # Release Notes
+## [microcode-20241029](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20241029)
+
+### Purpose
+
+- Update for functional issues. Refer to [14th/13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| RPL-E/HX/S     | B0       | 06-b7-01/32 | 00000129 | 0000012b | Core Gen13/Gen14
+
+
+# Release Notes
 ## [microcode-20240910](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240910)
 
 ### Purpose
