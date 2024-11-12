@@ -1,4 +1,56 @@
 # Release Notes
+## [microcode-20241112](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20241112)
+
+### Purpose
+
+- Security updates for [INTEL-SA-01101](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01101.html)
+- Security updates for [INTEL-SA-01079](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01079.html)
+- Updated security updates for [INTEL-SA-01097](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01097.html)
+- Updated security updates for [INTEL-SA-01103](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01103.html)
+- Update for functional issues. Refer to [Intel® Core™ Ultra Processor](https://cdrdv2.intel.com/v1/dl/getContent/792254) for details.
+- Update for functional issues. Refer to [14th/13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
+- Update for functional issues. Refer to [5th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/793902) for details.
+- Update for functional issues. Refer to [4th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/772415) for details.
+- Update for functional issues. Refer to [3rd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780) for details.
+- Update for functional issues. Refer to [Intel® Xeon® D-2700 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/714071) for details.
+- Update for functional issues. Refer to [Intel® Xeon® D-1700 and D-1800 Processor Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/714069) for details
+
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| ADL            | C0       | 06-97-02/07 | 00000036 | 00000037 | Core Gen12
+| ADL            | H0       | 06-97-05/07 | 00000036 | 00000037 | Core Gen12
+| ADL            | L0       | 06-9a-03/80 | 00000434 | 00000435 | Core Gen12
+| ADL            | R0       | 06-9a-04/80 | 00000434 | 00000435 | Core Gen12
+| EMR-SP         | A0       | 06-cf-01/87 | 21000230 | 21000283 | Xeon Scalable Gen5
+| EMR-SP         | A1       | 06-cf-02/87 | 21000230 | 21000283 | Xeon Scalable Gen5
+| MTL            | C0       | 06-aa-04/e6 | 0000001f | 00000020 | Core™ Ultra Processor
+| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 | 00004122 | 00004123 | Core Gen13
+| RPL-HX/S       | C0       | 06-bf-02/07 | 00000036 | 00000037 | Core Gen13/Gen14
+| RPL-S          | H0       | 06-bf-05/07 | 00000036 | 00000037 | Core Gen13/Gen14
+| RPL-U 2+8      | Q0       | 06-ba-03/e0 | 00004122 | 00004123 | Core Gen13
+| SPR-SP         | E3       | 06-8f-06/87 | 2b0005c0 | 2b000603 | Xeon Scalable Gen4
+| SPR-SP         | E4/S2    | 06-8f-07/87 | 2b0005c0 | 2b000603 | Xeon Scalable Gen4
+| SPR-SP         | E5/S3    | 06-8f-08/87 | 2b0005c0 | 2b000603 | Xeon Scalable Gen4
+
+### New Disclosures Updated in Prior Releases
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| ICL-D          | B0       | 06-6c-01/10 | 010002b0 | N/A      | Xeon D-17xx/D-18xx, D-27xx/D-28xx
+| ICX-SP         | Dx/M1    | 06-6a-06/87 | 0d0003e7 | N/A      | Xeon Scalable Gen3
+
+
+# Release Notes
 ## [microcode-20241029](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20241029)
 
 ### Purpose
