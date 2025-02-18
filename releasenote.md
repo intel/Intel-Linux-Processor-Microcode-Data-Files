@@ -69,6 +69,7 @@
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | CFL-H/S        | P0       | 06-9e-0c/22 | 000000f6 | 000000f8 | Core Gen9
 
+
 ## [microcode-20241112](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20241112)
 
 ### Purpose
@@ -77,6 +78,7 @@
 - Security updates for [INTEL-SA-01079](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01079.html)
 - Updated security updates for [INTEL-SA-01097](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01097.html)
 - Updated security updates for [INTEL-SA-01103](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01103.html)
+
 - Update for functional issues. Refer to [Intel® Core™ Ultra Processor](https://cdrdv2.intel.com/v1/dl/getContent/792254) for details.
 - Update for functional issues. Refer to [14th/13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
 - Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
@@ -85,7 +87,6 @@
 - Update for functional issues. Refer to [3rd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780) for details.
 - Update for functional issues. Refer to [Intel® Xeon® D-2700 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/714071) for details.
 - Update for functional issues. Refer to [Intel® Xeon® D-1700 and D-1800 Processor Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/714069) for details
-
 
 ### New Platforms
 
@@ -143,6 +144,7 @@ None
 
 - Security updates for [INTEL-SA-01103](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01103.html)
 - Security updates for [INTEL-SA-01097](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01097.html)
+
 - Update for functional issues. Refer to [Intel® Core™ Ultra Processor](https://cdrdv2.intel.com/v1/dl/getContent/792254) for details.
 - Update for functional issues. Refer to [13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
 - Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
@@ -184,7 +186,6 @@ None
 - Security updates for [INTEL-SA-01038](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01038.html)
 - Security updates for [INTEL-SA-01046](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01046.html)
 
-
 - Update for functional issues. Refer to [Intel® Core™ Ultra Processor](https://cdrdv2.intel.com/v1/dl/getContent/792254) for details.
 - Update for functional issues. Refer to [3rd Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780) for details.
 - Update for functional issues. Refer to [3rd Generation Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/634897) for details.
@@ -201,7 +202,6 @@ None
 - Update for functional issues. Refer to [7th and 8th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/334663) for details.
 - Update for functional issues. Refer to [Intel® Processors and Intel® Core™ i3 N-Series](https://cdrdv2.intel.com/v1/dl/getContent/764616) for details.
 - Update for functional issues. Refer to [Intel® Atom® x6000E Series, and Intel® Pentium® and Celeron® N and J Series Processors for Internet of Things (IoT) Applications](https://cdrdv2.intel.com/v1/dl/getContent/636674) for details.
-
 
 ### New Platforms
 
@@ -250,7 +250,6 @@ None
 
 - Update for functional issues. Refer to [Intel® Pentium® Silver and Intel® Celeron® Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/336562)
 
-
 ### New Platforms
 
 None
@@ -269,6 +268,7 @@ None
 - Security updates for [INTEL-SA-01051](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01051.html)
 - Security updates for [INTEL-SA-01052](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01052.html)
 - Security updates for [INTEL-SA-01036](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01036.html)
+
 - Update for functional issues. Refer to [5th Gen Intel® Xeon® Processor Scalable Family](https://cdrdv2.intel.com/v1/dl/getContent/793902) for details.
 - Update for functional issues. Refer to [4th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/772415) for details.
 - Update for functional issues. Refer to [14th & 13th Generation Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
@@ -300,6 +300,7 @@ None
 | SPR-SP         | E3       | 06-8f-06/87 | 2b000590 | 2b0005c0 | Xeon Scalable Gen4
 | SPR-SP         | E4/S2    | 06-8f-07/87 | 2b000590 | 2b0005c0 | Xeon Scalable Gen4
 | SPR-SP         | E5/S3    | 06-8f-08/87 | 2b000590 | 2b0005c0 | Xeon Scalable Gen4
+
 
 ## [microcode-20240312](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20240312)
 
@@ -333,9 +334,6 @@ None
 - Update for functional issues. Refer to [Intel® Atom® x6000E Series, and Intel® Pentium® and Celeron® N and J Series Processors for Internet of Things (IoT) Applications](https://cdrdv2.intel.com/v1/dl/getContent/636674) for details.
 - Update for functional issues. Refer to [Intel® Pentium® Silver and Intel® Celeron® Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/336562) for details.
 - Update for functional issues. Refer to [Intel® Pentium® Silver and Intel® Celeron® Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/634542) for details.
-
-
-
 
 ### New Platforms
 
@@ -452,6 +450,7 @@ None
 | TGL            | B0/B1    | 06-8c-01/80 | 000000ac | 000000b4 | Core Gen11 Mobile
 | TGL-H          | R0       | 06-8d-01/c2 | 00000046 | 0000004e | Core Gen11 Mobile
 | TGL-R          | C0       | 06-8c-02/c2 | 0000002c | 00000034 | Core Gen11 Mobile
+
 
 ## [microcode-20230808](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230808)
 
@@ -787,6 +786,7 @@ None
 
 - Security updates for [INTEL-SA-00657](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00657.html)
 - Security updates for [INTEL-SA-00614](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00614.html)
+
 - Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/scalable/
 xeon-scalable-spec-update.html?wapkw=processor+specification+update) for details.
 
@@ -819,11 +819,13 @@ None
 
 None
 
+
 ## [microcode-20220510](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20220510)
 
 ### Purpose
 
 - Security updates for [INTEL-SA-000617](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00617.html)
+
 - Update for functional issues. Refer to [Second Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338848) for details.
 - Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/scalable/xeon-scalable-spec-update.html?wapkw=processor+specification+update) for details.
 - Update for functional issues. Refer to [Intel Atom® C3000 Processor Product Family Specification Update](https://www.intel.com/content/www/us/en/processors/atom/atom-c3000-family-spec-update.html?wapkw=processor+specification+update) for details.
@@ -889,6 +891,7 @@ None
 
 None
 
+
 ## [microcode-20220419](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20220419)
 
 ### Purpose
@@ -916,6 +919,7 @@ None
 
 - Security updates for [INTEL-SA-00528](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00528.html)
 - Security updates for [INTEL-SA-00532](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00532.html)
+
 - Update for functional issues. Refer to [Third Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780) for details.
 - Update for functional issues. Refer to [Second Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338848) for details.
 - Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/scalable/xeon-scalable-spec-update.html?wapkw=processor+specification+update) for details.
@@ -998,6 +1002,7 @@ None
 - Security updates for [INTEL-SA-00442](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00442.html)
 - Security updates for [INTEL-SA-00464](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00464.html)
 - Security updates for [INTEL-SA-00465](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00465.html)
+
 - Update for functional issues. Refer to [Third Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780)for details.
 - Update for functional issues. Refer to [Second Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338848) for details.
 - Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/613537) for details.
@@ -1099,6 +1104,7 @@ None
 
 None
 
+
 ## [microcode-20201118](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20201118)
 
 ### Purpose
@@ -1118,6 +1124,7 @@ None
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | TGL            | B1       | 06-8c-01/80 | 00000068 |          | Core Gen11 Mobile
+
 
 ## [microcode-20201112](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20201112)
 
@@ -1140,12 +1147,14 @@ None
 
 None
 
+
 ## [microcode-20201110](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20201110)
 
 ### Purpose
 
 - Security updates for [INTEL-SA-00381](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00381.html).
 - Security updates for [INTEL-SA-00389](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00389.html).
+
 - Update for functional issues. Refer to [Second Generation Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/338848) for details.
 - Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/613537) for details.
 - Update for functional issues. Refer to [Intel® Xeon® Processor E5 v3 Product Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/xeon-e5-v3-spec-update.html?wapkw=processor+spec+update+e5) for details.
@@ -1155,7 +1164,6 @@ None
 - Update for functional issues. Refer to [6th Gen Intel® Processor Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/332689) for details.
 - Update for functional issues. Refer to [Intel® Xeon® E3-1200 v6 Processor Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/xeon-e3-1200v6-spec-update.html) for details.
 - Update for functional issues. Refer to [Intel® Xeon® E-2100 and E-2200 Processor Family Specification Update](https://www.intel.com/content/www/us/en/products/docs/processors/xeon/xeon-e-2100-specification-update.html) for details.
-
 
 ### New Platforms
 
@@ -1204,6 +1212,7 @@ None
 
 None
 
+
 ## [microcode-20200616](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20200616)
 
 ### Purpose
@@ -1225,6 +1234,7 @@ None
 ### Removed Platforms
 
 None
+
 
 ## [microcode-20200609](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20200609)
 
@@ -1270,6 +1280,7 @@ None
 
 None
 
+
 ## [microcode-20200520](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20200520)
 
 ### Purpose
@@ -1291,6 +1302,7 @@ None
 
 None
 
+
 ## [microcode-20200508](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20200508)
 
 ### Purpose
@@ -1310,6 +1322,7 @@ None
 ### Removed Platforms
 
 None
+
 
 ## [microcode-20191115](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20191115)
 
@@ -1353,11 +1366,13 @@ None
 
 None
 
+
 ## [microcode-20191113](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20191113)
 
 ### Purpose
 
 - Security updates for [INTEL-SA-00270](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00270.html).
+
 - Correction in release notes for specific processor to CFL-S only.  Prior release showed as CFL-H/S.
 
 ### New Platforms
@@ -1373,6 +1388,7 @@ None
 ### Removed Platforms
 
 None
+
 
 ## [microcode-20191112](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20191112)
 
@@ -1421,12 +1437,14 @@ None
 
 None
 
+
 ## [microcode-20190918](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20190918)
 
 ### Purpose
 
 - Update for functional issues. Refer to [Intel® Xeon® Processor D-1500, D-1500 NS and D-1600 NS Spec Update](https://www.intel.com/content/www/us/en/products/docs/processors/xeon/xeon-d-1500-specification-update.html) for details.
 - Update for functional issues. Refer to [Intel® Xeon® E7-8800 and E7-4800 v3 Processor Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/xeon-e7-v3-spec-update.html) for details.
+
 - Security updates for [INTEL-SA-00270](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00270.html).
 
 ### New Platforms
@@ -1453,6 +1471,7 @@ None
 
 None
 
+
 ## [microcode-20190618](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20190618)
 
 ### Purpose
@@ -1473,6 +1492,7 @@ None
 ### Removed Platforms
 
 None
+
 
 ## [microcode-20190514a](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20190514a)
 
@@ -1534,6 +1554,7 @@ None
 
 None
 
+
 ## [microcode-20190514](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20190514)
 
 ### Purpose
@@ -1592,6 +1613,7 @@ None
 ### Removed Platforms
 
 None
+
 
 ## [microcode-20190312](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20190312)
 
