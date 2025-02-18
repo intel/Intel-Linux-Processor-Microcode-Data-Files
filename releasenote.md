@@ -89,9 +89,7 @@
 
 ### New Platforms
 
-| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
-|:---------------|:---------|:------------|:---------|:---------|:---------
-
+None
 
 ### Updated Platforms
 
@@ -130,9 +128,7 @@
 
 ### New Platforms
 
-| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
-|:---------------|:---------|:------------|:---------|:---------|:---------
-
+None
 
 ### Updated Platforms
 
@@ -209,9 +205,7 @@
 
 ### New Platforms
 
-| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
-|:---------------|:---------|:------------|:---------|:---------|:---------
-
+None
 
 ### Updated Platforms
 
@@ -259,9 +253,7 @@
 
 ### New Platforms
 
-| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
-|:---------------|:---------|:------------|:---------|:---------|:---------
-
+None
 
 ### Updated Platforms
 
@@ -285,9 +277,7 @@
 
 ### New Platforms
 
-| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
-|:---------------|:---------|:------------|:---------|:---------|:---------
-
+None
 
 ### Updated Platforms
 
@@ -431,9 +421,7 @@
 
 ### New Platforms
 
-| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
-|:---------------|:---------|:------------|:---------|:---------|:---------
-
+None
 
 ### Updated Platforms
 
