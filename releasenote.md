@@ -148,6 +148,7 @@
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | SPR-SP         | E2       | 06-8f-05/87 | 2b000603 |          | Xeon Scalable Gen4
 | SPR-SP         | E3       | 06-8f-06/87 | 2b000603 |          | Xeon Scalable Gen4
+| RPL            |          | 06-ba-08/e0 | 00004123 |          | Core Gen13
 
 ### New Disclosures Updated in Prior Releases
 
@@ -190,6 +191,7 @@
 | EMR-SP         | A0       | 06-cf-01/87 | 21000230 | 21000283 | Xeon Scalable Gen5
 | EMR-SP         | A1       | 06-cf-02/87 | 21000230 | 21000283 | Xeon Scalable Gen5
 | MTL            | C0       | 06-aa-04/e6 | 0000001f | 00000020 | Core™ Ultra Processor
+| RPL            |          | 06-ba-08/e0 | 00004122 | 00004123 | Core Gen13
 | RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 | 00004122 | 00004123 | Core Gen13
 | RPL-HX/S       | C0       | 06-bf-02/07 | 00000036 | 00000037 | Core Gen13/Gen14
 | RPL-S          | H0       | 06-bf-05/07 | 00000036 | 00000037 | Core Gen13/Gen14
@@ -253,6 +255,7 @@
 | ADL            | R0       | 06-9a-04/80 | 00000433 | 00000434 | Core Gen12
 | ADL-N          | N0       | 06-be-00/11 | 00000017 | 0000001a | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
 | MTL            | C0       | 06-aa-04/e6 | 0000001e | 0000001f | Core™ Ultra Processor
+| RPL            |          | 06-ba-08/e0 | 00004121 | 00004122 | Core Gen13
 | RPL-E/HX/S     | B0       | 06-b7-01/32 | 00000123 | 00000129 | Core Gen13/Gen14
 | RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 | 00004121 | 00004122 | Core Gen13
 | RPL-HX/S       | C0       | 06-bf-02/07 | 00000035 | 00000036 | Core Gen13/Gen14
@@ -438,6 +441,7 @@
 | EMR-SP         | A-1      | 06-cf-02/87 |          | 21000200 | Xeon Scalable Gen5
 | EMR-SP         | A-0      | 06-cf-01/87 |          | 21000200 | Xeon Scalable Gen5
 | MTL            | C-0      | 06-aa-04/e6 |          | 0000001c | Core™ Ultra Processor
+| RPL            |          | 06-ba-08/e0 |          | 00004121 | Core Gen13
 
 ### Updated Platforms
 
