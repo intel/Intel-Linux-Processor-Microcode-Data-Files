@@ -51,7 +51,7 @@
 | RPL-S          | H0       | 06-bf-05/07 | 00000037 | 00000038 | Core Gen13/Gen14
 | RKL-S          | B0       | 06-a7-01/02 | 00000062 | 00000063 | Core Gen11
 | SPR-HBM        | Bx       | 06-8f-08/10 | 2c000390 | 2c0003e0 | Xeon Max
-| SPR-SP         | E4/S2    | 06-8f-07/87 | 2b000603 | 2b000620 | Xeon Scalable Gen4 
+| SPR-SP         | E4/S2    | 06-8f-07/87 | 2b000603 | 2b000620 | Xeon Scalable Gen4
 | SPR-SP         | E5/S3    | 06-8f-08/87 | 2b000603 | 2b000620 | Xeon Scalable Gen4
 | TWL            | N0       | 06-be-00/19 | 0000001a | 0000001c | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
 
@@ -780,7 +780,7 @@ None
 ### Purpose
 
 - Security updates for [INTEL-SA-00657](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00657.html)
-- Security updates for [INTEL-SA-00614](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00614.html) 
+- Security updates for [INTEL-SA-00614](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00614.html)
 - Update for functional issues. Refer to [Intel® Xeon® Processor Scalable Family Specification Update](https://www.intel.com/content/www/us/en/processors/xeon/scalable/
 xeon-scalable-spec-update.html?wapkw=processor+specification+update) for details.
 
