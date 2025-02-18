@@ -300,8 +300,8 @@
 | ADL-N          | N0       | 06-be-00/11 | 00000015 | 00000017 | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
 | AZB            | A0       | 06-9a-04/40 | 00000005 | 00000007 | Intel(R) Atom(R) C1100
 | AZB            | R0       | 06-9a-04/40 | 00000005 | 00000007 | Intel(R) Atom(R) C1100
-| EMR-SP         | A0      | 06-cf-01/87 | 21000200 | 21000230 | Xeon Scalable Gen5
-| EMR-SP         | A1      | 06-cf-02/87 | 21000200 | 21000230 | Xeon Scalable Gen5
+| EMR-SP         | A0       | 06-cf-01/87 | 21000200 | 21000230 | Xeon Scalable Gen5
+| EMR-SP         | A1       | 06-cf-02/87 | 21000200 | 21000230 | Xeon Scalable Gen5
 | RPL-E/HX/S     | B0       | 06-b7-01/32 | 00000122 | 00000123 | Core Gen13/Gen14
 | RPL-HX/S       | C0       | 06-bf-02/07 | 00000034 | 00000035 | Core Gen13/Gen14
 | RPL-S          | H0       | 06-bf-05/07 | 00000034 | 00000035 | Core Gen13/Gen14
