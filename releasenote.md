@@ -641,7 +641,7 @@ None
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | ADL            | L0       | 06-9a-03/80 | 00000429 | 0000042a | Core Gen12
 | ADL            | L0       | 06-9a-04/80 | 00000429 | 0000042a | Core Gen12
-| AML-Y22        | H0       | 06-8e-09/10 |          | 000000f2 | Core Gen8 Mobile
+| AML-Y22        | H0       | 06-8e-09/10 | 000000f0 | 000000f2 | Core Gen8 Mobile
 | AML-Y42        | V0       | 06-8e-0c/94 | 000000f4 | 000000f6 | Core Gen10 Mobile
 | CFL-H          | R0       | 06-9e-0d/22 | 000000f4 | 000000f8 | Core Gen9 Mobile
 | CFL-H/S        | P0       | 06-9e-0c/22 | 000000f0 | 000000f2 | Core Gen9
@@ -661,16 +661,16 @@ None
 | ICL-U/Y        | D1       | 06-7e-05/80 | 000000b8 | 000000ba | Core Gen10 Mobile
 | ICX-SP         | D0       | 06-6a-06/87 | 0d000389 | 0d000390 | Xeon Scalable Gen3
 | KBL-G/H/S/E3   | B0       | 06-9e-09/2a | 000000f0 | 000000f2 | Core Gen7; Xeon E3 v6
-| KBL-U/Y        | H0       | 06-8e-09/c0 |          | 000000f2 | Core Gen7 Mobile
+| KBL-U/Y        | H0       | 06-8e-09/c0 | 000000f0 | 000000f2 | Core Gen7 Mobile
 | LKF            | B2/B3    | 06-8a-01/10 | 00000032 | 00000033 | Core w/Hybrid Technology
 | RKL-S          | B0       | 06-a7-01/02 | 00000057 | 00000058 | Core Gen11
 | RPL-H 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
 | RPL-P 6+8      | J0       | 06-ba-02/c0 | 0000410e | 00004112 | Core Gen13
 | RPL-S          | B0       | 06-b7-01/32 | 00000112 | 00000113 | Core Gen13
 | RPL-U 2+8      | Q0       | 06-ba-03/c0 | 0000410e | 00004112 | Core Gen13
-| SKX-D          | H0       | 06-55-04/b7 |          | 02006f05 | Xeon D-21xx
+| SKX-D          | H0       | 06-55-04/b7 | 02006e05 | 02006f05 | Xeon D-21xx
 | SKX-SP         | B1       | 06-55-03/97 | 01000161 | 01000171 | Xeon Scalable
-| SKX-SP         | H0/M0/U0 | 06-55-04/b7 |          | 02006f05 | Xeon Scalable
+| SKX-SP         | H0/M0/U0 | 06-55-04/b7 | 02006e05 | 02006f05 | Xeon Scalable
 | SPR-HBM        | B3       | 06-8f-08/10 | 2c000170 | 2c0001d1 | Xeon Max
 | SPR-SP         | E0       | 06-8f-04/87 | 2b000181 | 2b000461 | Xeon Scalable Gen4
 | SPR-SP         | E2       | 06-8f-05/87 | 2b000181 | 2b000461 | Xeon Scalable Gen4
@@ -683,7 +683,7 @@ None
 | TGL-H          | R0       | 06-8d-01/c2 | 00000042 | 00000044 | Core Gen11 Mobile
 | TGL-R          | C0       | 06-8c-02/c2 | 00000028 | 0000002a | Core Gen11 Mobile
 | WHL-U          | V0       | 06-8e-0c/94 | 000000f4 | 000000f6 | Core Gen8 Mobile
-| WHL-U          | W0       | 06-8e-0b/d0 |          | 000000f2 | Core Gen8 Mobile
+| WHL-U          | W0       | 06-8e-0b/d0 | 000000f0 | 000000f2 | Core Gen8 Mobile
 
 
 ## [microcode-20230214](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20230214)
