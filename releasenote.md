@@ -142,6 +142,13 @@
 | SPR-SP         | E5/S3    | 06-8f-08/87 | 2b000603 | 2b000620 | Xeon Scalable Gen4
 | TWL            | N0       | 06-be-00/19 | 0000001a | 0000001c | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
 
+### Removed Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| SPR-SP         | E2       | 06-8f-05/87 | 2b000603 |          | Xeon Scalable Gen4
+| SPR-SP         | E3       | 06-8f-06/87 | 2b000603 |          | Xeon Scalable Gen4
+
 ### New Disclosures Updated in Prior Releases
 
 | Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
@@ -187,6 +194,7 @@
 | RPL-HX/S       | C0       | 06-bf-02/07 | 00000036 | 00000037 | Core Gen13/Gen14
 | RPL-S          | H0       | 06-bf-05/07 | 00000036 | 00000037 | Core Gen13/Gen14
 | RPL-U 2+8      | Q0       | 06-ba-03/e0 | 00004122 | 00004123 | Core Gen13
+| SPR-SP         | E2       | 06-8f-05/87 | 2b0005c0 | 2b000603 | Xeon Scalable Gen4
 | SPR-SP         | E3       | 06-8f-06/87 | 2b0005c0 | 2b000603 | Xeon Scalable Gen4
 | SPR-SP         | E4/S2    | 06-8f-07/87 | 2b0005c0 | 2b000603 | Xeon Scalable Gen4
 | SPR-SP         | E5/S3    | 06-8f-08/87 | 2b0005c0 | 2b000603 | Xeon Scalable Gen4
@@ -480,6 +488,12 @@
 | TGL-H          | R0       | 06-8d-01/c2 | 0000004e | 00000050 | Core Gen11 Mobile
 | TGL-R          | C0       | 06-8c-02/c2 | 00000034 | 00000036 | Core Gen11 Mobile
 | WHL-U          | V0       | 06-8e-0c/94 | 000000f8 | 000000fa | Core Gen8 Mobile
+
+### Removed Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| SPR-SP         | E0       | 06-8f-04/87 | 2b0004d0 |          | Xeon Scalable Gen4
 
 
 ## [microcode-20231114](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20231114)
