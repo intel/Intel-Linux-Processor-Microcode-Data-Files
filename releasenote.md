@@ -85,6 +85,13 @@
 | TWL            | N0       | 06-be-00/19 | 0000001c | 0000001d | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
 | WHL-U          | V0       | 06-8e-0c/94 | 000000fc | 00000100 | Core Gen8 Mobile
 
+### Removed Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| CLX-SP         | B0       | 06-55-06/bf | 04003605 |          | Xeon Scalable Gen2
+| EMR-SP         | A0       | 06-cf-01/87 | 21000291 |          | Xeon Scalable Gen5
+
 
 ## [microcode-20250211](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20250211)
 
