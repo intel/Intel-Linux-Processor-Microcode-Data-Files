@@ -1,4 +1,57 @@
 # Release Notes
+## [microcode-20250812](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20250812)
+
+### Purpose
+- Security updates for [INTEL-SA-01249](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01249.html)
+- Security updates for [INTEL-SA-01308](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01308.html)
+- Security updates for [INTEL-SA-01310](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01310.html)
+- Security updates for [INTEL-SA-01311](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01311.html)
+- Security updates for [INTEL-SA-01313](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01313.html)
+- Security updates for [INTEL-SA-01367](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01367.html)
+- Update for functional issues. Refer to [13th/14th Gen Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [3rd Gen Intel® Xeon® Processor Scalable Family Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/637780) for details.
+- Update for functional issues. Refer to [4th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/772415) for details.
+- Update for functional issues. Refer to [5th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/793902) for details.
+- Update for functional issues. Refer to [6th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/835486) for details.
+- Update for functional issues. Refer to [Intel® Core™ Ultra 200 V Series Processor](https://cdrdv2.intel.com/v1/dl/getContent/827538) for details.
+- Update for functional issues. Refer to [Intel® Core™ Ultra Processor](https://cdrdv2.intel.com/v1/dl/getContent/792254) for details.
+- Update for functional issues. Refer to [Intel® Core™ Ultra Processor (Series 2)](https://cdrdv2.intel.com/v1/dl/getContent/834774) for details.
+- Update for functional issues. Refer to [Intel® Xeon® 6700-Series Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/820922) for details.
+- Update for functional issues. Refer to [Intel® Xeon® D-2700 Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/714071) for details.
+
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| ARL-H          | A1       | 06-c5-02/82 | 00000118 | 00000119 | Core Ultra Processor (Series 2)
+| ARL-S/HX (8P)  | B0       | 06-c6-02/82 | 00000118 | 00000119 | Core Ultra Processor (Series 2)
+| EMR-SP         | A1       | 06-cf-02/87 | 210002a9 | 210002b3 | Xeon Scalable Gen5
+| GNR-AP/SP      | B0       | 06-ad-01/95 | 010003a2 | 010003d0 | Xeon Scalable Gen6
+| GNR-AP/SP      | H0       | 06-ad-01/20 | 0a0000d1 | 0a000100 | Xeon Scalable Gen6
+| ICL-D          | B0       | 06-6c-01/10 | 010002d0 | 010002e0 | Xeon D-17xx, D-27xx
+| ICX-SP         | Dx/M1    | 06-6a-06/87 | 0d000404 | 0d000410 | Xeon Scalable Gen3
+| LNL            | B0       | 06-bd-01/80 | 0000011f | 00000123 | Core Ultra 200 V Series Processor
+| MTL            | C0       | 06-aa-04/e6 | 00000024 | 00000025 | Core™ Ultra Processor
+| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 | 00004128 | 00004129 | Core Gen13
+| RPL-U 2+8      | Q0       | 06-ba-03/e0 | 00004128 | 00004129 | Core Gen13
+| SPR-HBM        | Bx       | 06-8f-08/10 | 2c0003f7 | 2c000401 | Xeon Max
+| SPR-SP         | E4/S2    | 06-8f-07/87 | 2b000639 | 2b000643 | Xeon Scalable Gen4
+| SPR-SP         | E5/S3    | 06-8f-08/87 | 2b000639 | 2b000643 | Xeon Scalable Gen4
+| SRF-SP         | C0       | 06-af-03/01 | 03000341 | 03000362 | Xeon 6700-Series Processors with E-Cores
+
+
+### New Disclosures Updated in Prior Releases
+
+All ADL, RPL, SPR, EMR, MTL, ARL Microcode patches previously released in May 2025.
+
+
 ## [microcode-20250512](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20250512)
 
 ### Purpose
