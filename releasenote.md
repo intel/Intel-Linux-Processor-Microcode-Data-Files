@@ -1,4 +1,56 @@
 # Release Notes
+## [microcode-20251111](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20251111)
+
+### Purpose
+- Update for functional issues. Refer to [12th Generation Intel® Core™ Processor Family](https://cdrdv2.intel.com/v1/dl/getContent/682436) for details.
+- Update for functional issues. Refer to [13th/14th Gen Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [4th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/772415) for details.
+- Update for functional issues. Refer to [5th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/793902) for details.
+- Update for functional issues. Refer to [Intel® Core™ Ultra 200 V Series Processor ](https://cdrdv2.intel.com/v1/dl/getContent/827538) for details.
+- Update for functional issues. Refer to [Intel® Core™ Ultra Processor (Series 2)](https://cdrdv2.intel.com/v1/dl/getContent/834774) for details.
+- Update for functional issues. Refer to [Intel® Processors and Intel® Core™ i3 N-Series](https://cdrdv2.intel.com/v1/dl/getContent/764616) for details.
+- Update for functional issues. Refer to [Intel® Xeon® 6700 Series Processors with E-cores](https://cdrdv2.intel.com/v1/dl/getContent/820922) for details.
+- Update for functional issues. Refer to [Intel® Xeon® 6900/6700/6500 Series Processors with P-cores](https://cdrdv2.intel.com/v1/dl/getContent/835486) for details.
+- Update for functional issues. Refer to [Intel® Xeon® 6700P-B/6500P-B-Series SoC with P-Cores](https://cdrdv2.intel.com/v1/dl/getContent/843306) for details.
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| GNR-D          | B0/B1    | 06-ae-01/97 |          | 01000273 | Xeon 6700P-B/6500P-B Series SoC with P-Cores 
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| ADL            | C0       | 06-97-02/07 | 0000003a | 0000003d | Core Gen12
+| ADL            | H0       | 06-97-05/07 | 0000003a | 0000003d | Core Gen12
+| ADL            | L0       | 06-9a-03/80 | 00000437 | 0000043a | Core Gen12
+| ADL            | R0       | 06-9a-04/80 | 00000437 | 0000043a | Core Gen12
+| ADL-N          | N0       | 06-be-00/19 | 0000001d | 0000001e | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
+| ARL-H          | A1       | 06-c5-02/82 | 00000119 | 0000011a | Core Ultra Processor (Series 2)
+| ARL-S/HX (8P)  | B0       | 06-c6-02/82 | 00000119 | 0000011a | Core Ultra Processor (Series 2)
+| AZB            | A0/R0    | 06-9a-04/40 | 0000000a | 0000000b | Atom C1100
+| EMR-SP         | A1       | 06-cf-02/87 | 210002b3 | 210002c0 | Xeon Scalable Gen5
+| GNR-AP/SP      | Bx/Hx/Lx | 06-ad-01/95 | 010003d0 | 010003f0 | Xeon 6900-6700/6500-Series Processors with P-Cores
+| GNR-SP R1S     | Bx/Hx/Lx | 06-ad-01/20 | 0a000100 | 0a000124 | Xeon 6700/6500-Series Processors with P-Cores
+| LNL            | B0       | 06-bd-01/80 | 00000123 | 00000125 | Core Ultra 200 V Series Processor
+| RPL-E/HX/S     | B0       | 06-b7-01/32 | 0000012f | 00000132 | Core Gen13/Gen14
+| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 | 00004129 | 00006133 | Core Gen13
+| RPL-HX/S       | C0       | 06-bf-02/07 | 0000003a | 0000003d | Core Gen13/Gen14
+| RPL-S          | H0       | 06-bf-05/07 | 0000003a | 0000003d | Core Gen13/Gen14
+| RPL-U 2+8      | Q0       | 06-ba-03/e0 | 00004129 | 00006133 | Core Gen13
+| SPR-HBM        | Bx       | 06-8f-08/10 | 2c000401 | 2c000410 | Xeon Max
+| SPR-SP         | E4/S2    | 06-8f-07/87 | 2b000643 | 2b000650 | Xeon Scalable Gen4
+| SPR-SP         | E5/S3    | 06-8f-08/87 | 2b000643 | 2b000650 | Xeon Scalable Gen4
+| SRF-AP/SP      | C0       | 06-af-03/01 | 03000362 | 03000382 | Xeon 6900/6700-Series Processors with E-Cores
+| TWL            | N0       | 06-be-00/19 | 0000001d | 0000001e | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
+
+### Change History
+General updates to current Release Notes: Correction of Xeon 6 family processors names.
+
+
+# Release Notes
 ## [microcode-20250812](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20250812)
 
 ### Purpose
@@ -51,7 +103,7 @@
 
 All ADL, RPL, SPR, EMR, MTL, ARL Microcode patches previously released in May 2025.
 
-
+# Release Notes
 ## [microcode-20250512](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20250512)
 
 ### Purpose
@@ -138,7 +190,7 @@ All ADL, RPL, SPR, EMR, MTL, ARL Microcode patches previously released in May 20
 | TWL            | N0       | 06-be-00/19 | 0000001c | 0000001d | Core i3-N305/N300, N50/N97/N100/N200, Atom x7211E/x7213E/x7425E
 | WHL-U          | V0       | 06-8e-0c/94 | 000000fc | 00000100 | Core Gen8 Mobile
 
-
+# Release Notes
 ## [microcode-20250211](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20250211)
 
 ### Purpose
@@ -201,6 +253,7 @@ All ADL, RPL, SPR, EMR, MTL, ARL Microcode patches previously released in May 20
 |:---------------|:---------|:------------|:---------|:---------|:---------
 | CFL-H/S        | P0       | 06-9e-0c/22 | 000000f6 | 000000f8 | Core Gen9
 
+# Release Notes
 ## [microcode-20241112](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20241112)
 
 ### Purpose
