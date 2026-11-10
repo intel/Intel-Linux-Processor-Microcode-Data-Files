@@ -1,4 +1,43 @@
 # Release Notes
+## [microcode-20261110](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20261110)
+
+### Purpose
+
+- Update for functional issues. Refer to [13th/14th Gen Intel® Core™ Processor Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/740518) for details.
+- Update for functional issues. Refer to [4th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/772415) for details.
+- Update for functional issues. Refer to [5th Gen Intel® Xeon® Scalable Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/793902) for details.
+- Update for functional issues. Refer to [Intel® Core™ Processors (Series 3) Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/914196) for details.
+- Update for functional issues. Refer to [Intel® Core™ Ultra Processors (Series 3) Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/869992) for details.
+- Update for functional issues. Refer to [Intel® Xeon® 6700 Series Processors with E-cores Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/820922) for details.
+- Update for functional issues. Refer to [Intel® Xeon® 6900/6700/6500 Series Processors with P-cores Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/835486) for details.
+- Update for functional issues. Refer to [Intel® Xeon® 6900E+ Series Processors Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/917802) for details.
+- Update for functional issues. Refer to [Intel® Xeon® 6700P-B/6500P-B-Series SoC with P-Cores Specification Update](https://cdrdv2.intel.com/v1/dl/getContent/843306) for details.
+
+### New Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| CWF            | B0       | 06-dd-01/01 |          | 01000151 | Intel Xeon 6900E+ Series Processors         | 
+
+### Updated Platforms
+
+| Processor      | Stepping | F-M-S/PI    | Old Ver  | New Ver  | Products
+|:---------------|:---------|:------------|:---------|:---------|:---------
+| GNR-SP R1S     | Bx/Hx/Lx | 06-ad-01/20 | 0a000151 | 0a000164 | Xeon 6700/6500-Series Processors with P-Cores
+| SPR-SP         | E5/S3    | 06-8f-08/87 | 2b000685 | 2b000690 | Xeon Scalable Gen4
+| SPR-SP         | E4/S2    | 06-8f-07/87 | 2b000685 | 2b000690 | Xeon Scalable Gen4
+| SRF-AP/SP      | C0       | 06-af-03/01 | 030003b2 | 030003c4 | Xeon 6900/6700-Series Processors with E-Cores
+| GNR-AP/SP      | Bx/Hx/Lx | 06-ad-01/95 | 01000434 | 01000444 | Xeon 6900/6700/6500 Series Processors with P-Cores
+| GNR-D          | B0/B1    | 06-ae-01/97 | 01000309 | 01000310 | Xeon 6700P-B/6500P-B Series SoC with P-Cores 
+| WCL            | A1       | 06-d5-01/c0 | 0000000c | 0000000e | Intel Core Processors (Series 3)
+| EMR-SP         | A1       | 06-cf-02/87 | 210002f4 | 21000300 | Xeon Scalable Gen5
+| PTL-H484/PTL-H12Xe | B0/A0| 06-cc-02/94 | 0000011c | 0000011d | Intel Core Ultra processor (Series 3)
+| PTL-404/H204   | A1       | 06-cc-03/94 | 0000011c | 0000011d | Intel Core Ultra processor (Series 3)
+| RPL-H/P/PX 6+8 | J0       | 06-ba-02/e0 | 00006134 | 00006136 | Core Gen13
+| RPL-U 2+8      | Q0       | 06-ba-03/e0 | 00006134 | 00006136 | Core Gen13
+
+
+# Release Notes
 ## [microcode-20260925](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/releases/tag/microcode-20260925)
 
 ### Purpose
